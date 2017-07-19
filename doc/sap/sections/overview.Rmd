@@ -1,0 +1,60 @@
+This study is a cluster RCT to investigate the effectiveness of LEGO®-based therapy for children with ASD. There will be an internal pilot study which will run for 10 months to examine the feasibility of recruitment. The pilot period will run for 10 months, at which point we expect to have recruited n=120 of which one third (n=40) will have reached the primary endpoint. Stop/Go criteria based on 75% of recruitment target (n=90) and 70% of the primary outcome measures (n=28) will be used to assess feasibility of continuing the trial. There is a nested economic evaluation, qualitative component and assessment of fidelity and acceptability.
+
+### Primary Objective
+
+The primary objective of this trial is to examine the clinical effectiveness of LEGO®-based therapy groups on the social and emotional competence (including perceived social skills, challenging behaviours and academic confidence) of children with ASD within a mainstream school setting, when compared with usual support provided for children with ASD.
+
+### Secondary Objectives
+
+The secondary objectives of this trial are to:
+1. Examine the clinical effectiveness of LEGO®-based therapy groups on the perceived social isolation and loneliness of children with ASD within the school setting, when compared with usual support provided.
+2. Examine the cost-effectiveness of LEGO®-based therapy groups in terms of health-related quality of life and cost utility at 16 and 52 weeks.
+3. Determine if the impact of LEGO®-based therapy is sustainable into the next academic year by measuring effectiveness 52 weeks after baseline.
+4. Examine the acceptability of the intervention at follow-up points using a purpose designed questionnaire and telephone interviews.
+5. Examine treatment fidelity through independent observation of treatment sessions across schools.
+
+
+### Outcome Measures
+
+| Completed by...  | Measure                | Time points completed | Administered by... |
+|------------------|------------------------|-----------------------|--------------------|
+| Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Asher Loneliness Scale | Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Child Health Utility 9D| Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+| Parents          | Demographics           | Consent               | Research assistant |
+|                  | Social Communication Questionnaire | Consent   | Research assistant |
+|                  | Social Skills Improvement System   | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
+|                  | EQ-5D-Y  (3L proxy)    | Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke acceptability questionnaire (intervention group only) | 16 weeks | Research assistant |
+| Teacher/Teaching Assistant | Social Skills Improvement System | Baseline | Research assistant |
+|                  |                        | 16 weeks (**Primary**)| Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
+| Interventionist Teacher/Teaching Assistant | Demographics | Baseline | Research assistant |
+|                  | Bespoke acceptability questionnaire  | 16 weeks | Research assistant |
+|                  | Bespoke resource use questionnaire   | After each therapy session | Interventionist |
+|                  | Bespoke adverse events questionnaire | After each therapy session | Interventionist |
+|                  | Fidelity checklist                   | After each therapy session | Interventionist |
