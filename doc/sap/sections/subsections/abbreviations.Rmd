@@ -1,0 +1,53 @@
+| Abbreviation		 | Definition                                                     |
+|:-------------------|:---------------------------------------------------------------|
+|ABA				 | Applied Behaviour Analysis                                     |
+|ADHD				 | Attention deficit hyperactivity disorder                       |
+|ASCEND				 | Autism Spectrum Conditions - Enhancing Nurture and Development |
+|ASD				 | Autism Spectrum Disorder                                       |
+|ASSSIST			 | Autism Spectrum Social Stories In Schools Trial                |
+|Brick Builder		 | The child who puts the pieces together                         |
+|Brick Engineer		 | The child who describes the instructions                       |
+|Brick Supplier		 | The child finds the correct bricks                             |
+|CAMHS				 | Child and Adolescent Mental Health Services                    |
+|CiCS				 | Corporate Information and Computing Services                   |
+|CTRU				 | Clinical Trials Research Unit                                  |
+|DfES				 | Department for Education and Skills                            |
+|DMEC				 | Data Monitoring and Ethics Committee                           |
+|DSM-IV				 | Diagnostic and Statistical Manual of Mental Disorders          |
+|EQ-5D				 | European Quality of Life-5 Dimension                           |
+|GP					 | General Practitioner                                           |
+|HRA				 | Health Research Authority                                      |
+|I-SOCIALISE		 | Investigating SOcial Competence and Isolation in children with Autism taking part in LEGO®-based therapy clubs In School Environments|
+|IAPT				 | Improving Access to Psychological Therapies                    |
+|ICC				 | Intraclass Correlation                                         |
+|ICD-10				 | International Classification of Diseases                       |
+|IEP				 | Individual education plan                                      |
+|ITT				 | Intention To Treat analysis                                    |
+|Interventionist	 | A member of school staff who will deliver the intervention     |
+|NAS				 | National Autistic Society                                      |
+|NHS				 | National Health Service                                        |
+|NICE				 | National Institute for Health and Care Excellence              |
+|NIHR				 | National Institute for Health Research                         |
+|NPT				 | Normalisation Process Theory                                   |
+|PECS				 | Picture Exchange Communication System                          |
+|PIS				 | Participant Information Sheet                                  |
+|PPI				 | Patient and Public Involvement                                 |
+|QALY				 | Quality-Adjusted Life Years                                    |
+|QoL				 | Quality of Life                                                |
+|RA					 | Research Assistant                                             |
+|RCT				 | Randomised Controlled Trial                                    |
+|REC				 | Research Ethics Committee                                      |
+|SAE				 | Serious Adverse Events                                         |
+|SCQ				 | Social Communication Questionnaire                             |
+|SD					 | Standard deviation                                             |
+|SDQ				 | Strengths and Difficulties Questionnaire                       |
+|SEN				 | special educational needs                                      |
+|SENCO				 | Special Educational Needs Co-ordinator                         |
+|SOP				 | Standard Operating Procedure                                   |
+|SSIS				 | Social Skills Improvement System                               |
+|SULP				 | Social Use of Language Programme                               |
+|TA					 | Teaching Assistant                                             |
+|TD					 | Typically Developing                                           |
+|TMG				 | Trial Management Group                                         |
+|TSC				 | Trial Steering Committee                                       |
+|UK					 | United Kingdom                                                 |

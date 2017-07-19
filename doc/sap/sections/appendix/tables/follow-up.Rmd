@@ -1,0 +1,39 @@
+Table : Follow-Up by Intervention Arm.
+
+| Measurement     | Time Point     |Metric                 | LEGO based Therapy   | Care as Usual        | Overall              |
+|-----------------|----------------|-----------------------|--------|:--------------------:|:--------------------:|:--------------------:|
+| Social Skills Improvement Skills | 16 Weeks | Mean (SD) | XX.XX (XX.XX)    | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |          | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |          | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)    | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |          | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |          |  Min - Max              | XX - XX              | XX - XX              | XX - XX              || Multidimensional Scale of Perceived Social Support | 16 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Asher Loneliness Scale  | 16 Weeks | Mean (SD)      | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Child Health Utility 9D | 16 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Social Communication Questionnaire | 16 Weeks | Mean (SD) | XX.XX (XX.XX) | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Social Skills Improvement System | 16 Weeks | Mean (SD) | XX.XX (XX.XX)   | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
