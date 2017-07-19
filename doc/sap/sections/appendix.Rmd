@@ -5,5 +5,10 @@
 
 ### Sample Tables {.tabset .tabset-fade .tabset-pills}
 
-```{r child = 'appendix/tables/baseline.Rmd', eval = FALSE}
+```{r child = 'appendix/tables/baseline.Rmd', eval = TRUE}
+```
+
+### Sample Generalised Linear Model Output {.tabset .tabset-fade .tabset-pills}
+
+```{r child = 'appendix/tables/glmer-example.Rmd', eval = TRUE}
 ```
