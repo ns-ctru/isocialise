@@ -24,6 +24,7 @@
 |IEP				 | Individual education plan                                      |
 |ITT				 | Intention To Treat analysis                                    |
 |Interventionist	 | A member of school staff who will deliver the intervention     |
+|IQR                 | Inter-Quartile Range                                           |
 |NAS				 | National Autistic Society                                      |
 |NHS				 | National Health Service                                        |
 |NICE				 | National Institute for Health and Care Excellence              |
