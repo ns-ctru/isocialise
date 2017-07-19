@@ -1,13 +1,27 @@
 Table : Baseline Demographics by Intervention Arm.
 
-| Metric          | LEGO based Therapy     | Care as Usual        | Overall              |
-|-----------------|------------------------|----------------------|----------------------|
-| Age             | Mean (SD)              | Mean (SD)            | Mean (SD)            |
-|                 | Median (IQR)           | Median (IQR)         | Median (IQR)         |
-|                 | Min - Max              | Min - Max            | Min - Max            |
-| Gender          | Male   : N (%)         | Male   : N (%)       | Male   : N (%)       |
-|                 | Female : N (%)         | Female : N (%)       | Female : N (%)       |
-| Social Skills Improvement Skills |  Mean (SD)              | Mean (SD)            | Mean (SD)            |
-|                 | Median (IQR)           | Median (IQR)         | Median (IQR)         |
-|                 | Min - Max              | Min - Max            | Min - Max            |
-|                 | Skewness               | Skewness             | Skewness             |
+| Measurement     | Metric                 | LEGO based Therapy   | Care as Usual        | Overall              |
+|-----------------|------------------------|:--------------------:|:--------------------:|:--------------------:|
+| Age             | Mean (SD)              | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Gender          | Male   : N (%)         | XX (XX.X)            | XX (XX.X)            | XX (XX.X)            |
+|                 | Female : N (%)         | XX (XX.X)            | XX (XX.X)            | XX (XX.X)            |
+| Social Skills Improvement Skills | Mean (SD) | XX.XX (XX.XX)    | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Multidimensional Scale of Perceived Social Support  | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Asher Loneliness Scale  | Mean (SD)      | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Child Health Utility 9D  | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Social Communication Questionnaire  | Mean (SD) | XX.XX (XX.XX) | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
+| Social Skills Improvement System  | Mean (SD) | XX.XX (XX.XX)   | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
+|                 | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
+|                 | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
