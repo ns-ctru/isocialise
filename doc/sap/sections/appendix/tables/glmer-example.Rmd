@@ -1,0 +1,36 @@
+Sample output from running an example from `?glmer` are shown below along with various fixed and random effects plots followed by a plot of model assumptions.
+
+```{r glmer-example, echo = TRUE, warning = FALSE, message = FALSE, results = 'show', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Run a dummy glmer model on sample data to demonstrate the structure of output
+model1 <- glmer(cbind(incidence, size - incidence) ~ period + (1 | herd),
+                cbpp, binomial, nAGQ = 0)
+model1 %>% summary()
+```
+
+**Random Effects**
+```{r glmer-example-random-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Diagnostic plots (see http://www.strengejacke.de/sjPlot/sjp.glmer/)
+sjp.setTheme(base = theme_bw())
+## Random Effects
+sjp.glmer(model1, type = 're')
+```
+
+**Random Effects Quantile Plot**
+```{r glmer-example-random-effects-qq, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Quantile Plots for Random Effects
+sjp.glmer(model1, type = 're.qq')
+```
+
+**Fixed Effects**
+```{r glmer-example-fixed-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Fixed Effects
+sjp.glmer(model1, type = 'fe')
+```
+
+**Model Assumptions**
+```{r glmer-example-model-assumptions, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Model Assumptions
+sjp.glmer(model1, type = 'ma')
+
+
+```
