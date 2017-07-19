@@ -65,12 +65,6 @@ system(cmd)
 ```{r child = 'sections/methods.Rmd', eval = TRUE}
 ```
 
-<!--- Run all analyses --->
-```{r child = 'sections/analysis.Rmd', eval = TRUE}
-```
-
-
-
 ## Appendix   {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/appendix.Rmd', eval = TRUE}
 ```
