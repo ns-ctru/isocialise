@@ -1,0 +1,9 @@
+### Abbreviations {.tabset .tabset-fade .tabset-pills}
+
+```{r child = 'subsections/abbreviations.Rmd', eval = TRUE}
+```
+
+### Sample Tables {.tabset .tabset-fade .tabset-pills}
+
+```{r child = 'tables/baseline.Rmd', eval = FALSE}
+```
