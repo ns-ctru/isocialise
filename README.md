@@ -20,7 +20,7 @@ This erpository contains the work/code/files for the statistical analysis of the
 | [Ms Anne McKelvey](anne.mckelvey@york.gov.uk) | Consultant      | York City Council        |
 | [Dr Georgina Gomez de la Cuesta](ginagomez@live.co.uk) | Consultant | Bricks for Autism    |
 | [Dr Lizzie Coates](e.coates@sheffield.ac.uk) | Qualitative researcher | University of Sheffield |
-| [Neil Shephard](n.shephard@sheffield.ac.uk)] | Statistician           | University of Sheffield |
+| [Neil Shephard](n.shephard@sheffield.ac.uk) | Statistician           | University of Sheffield |
 
 
 The Statistical Analysis Plan is written in [RMarkdown](http://rmarkdown.rstudio.com/) to allow detailed version control within this repository and can be found within `doc/sap/`.
