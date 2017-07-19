@@ -1,0 +1,80 @@
+---
+title: iSocalise : Investigating SOcial Competence and Isolation in children with Autism taking part in LEGO®-based therapy clubs In School Environments
+output: word
+bibliography: sections/bibliography.bib
+---
+
+```{r setup, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, eval = TRUE}
+library(agegap)
+##opts_chunk$set(dev = 'pdf')
+opts_chunk$set(cache.path = 'cache/',
+               width    = 200,
+               fig.height = 8,
+               fig.width  = 8,
+               warning = FALSE,
+               message = FALSE)
+options(digits = 3)
+## Ensure anchors are assessed first
+## opts_knit$set(eval.after = 'echo')
+## Hooks
+## knit_hooks$set(anchor = hook_anchor)
+## Set a seed
+set.seed(69027181)
+## Set sensible defaults
+ggplot2.opts <- list()
+ggplot2.opts$binwidth <- 30
+## Exclusions
+##
+## The following 'non-recruited' need excluding from all analyses
+## exclusions <- c()
+
+```
+
+```{r backup, echo = FALSE, eval = TRUE}
+## Make a backup of current output based on time stamp by obtaining the
+## modified time of the existing file and constructing a command to
+## copy this to the sub-directory 'arch/' modifying the filename to include
+## the timestamp.  This is done on a daily basis (otherwise './arch/'
+## directory can become very large!)
+##
+## Get the current date
+mtime <- file.info('isocalise_sap.docx')$mtime %>% as.Date()
+## Remove existing archives  from today
+cmd <- paste0('rm arch/isocalise_sap-', mtime, '.docx.bz2')
+system(cmd)
+## Copy the existing .docx to arch, adding todays date and compress
+cmd <- paste0('cp isocalise_sap.docx arch/isocalise_sap-', mtime, '.docx && bzip2 arch/isocalise_sap-', mtime, '.docx')
+system(cmd)
+
+```
+**ToDO** Create a frontispiece.
+
+**NB** A large portion of text in this document is lifted directly from the Study Protocol (v2) which should be read in conjunction with this document.
+
+<!--- Page Break? --->
+-----
+
+# {.tabset .tabset-fade .tabset-pills}
+## Overview
+
+```{r child = 'sections/overview.Rmd', eval = TRUE}
+```
+
+## Methods {.tabset .tabset-fade .tabset-pills}
+
+```{r child = 'sections/methods.Rmd', eval = TRUE}
+```
+
+<!--- Run all analyses --->
+```{r child = 'sections/analysis.Rmd', eval = TRUE}
+```
+
+
+
+## Appendix   {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/appendix.Rmd', eval = TRUE}
+```
+
+## References
+
+<!-- # References -->
