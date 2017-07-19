@@ -1,0 +1,24 @@
+Package: agegap
+Title: Package for i-Socialise Randomised Control Trial
+Version: 0.20170719
+Authors@R: person("Neil", "Shephard", email = "n.shephard@sheffield.ac.uk", role = c("aut", "cre"))
+Description:
+Depends:
+    R (>= 3.3.4),
+    blogdown (>= 0.0.40),
+    ctru (>= 0.20170718),
+    diagram (>= 1.6.3),
+    DT (>= 0.2),
+    formattable (>= 0.2.0.1),
+    ggfortify (>= 0.4.1),
+    haven (>= 1.0.0),
+    Hmisc (>= 4.0-3),
+    lme4 (>= 1.1-13),
+    plotly (>= 4.7.0),
+    rms (>= 5.1-1),
+    shiny(>= 1.0.3),
+    tidyverse (>= 1.1.1),
+    xtable (>= 1.8-2)
+License: GPL-3
+LazyData: true
+RoxygenNote: 6.0.1
