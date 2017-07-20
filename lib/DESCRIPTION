@@ -13,10 +13,12 @@ Depends:
     ggfortify (>= 0.4.1),
     haven (>= 1.0.0),
     Hmisc (>= 4.0-3),
+    influence.ME (>= 0.9-9),
     lme4 (>= 1.1-13),
     plotly (>= 4.7.0),
     rms (>= 5.1-1),
     shiny(>= 1.0.3),
+    sjPlot(>= 2.3.1),
     tidyverse (>= 1.1.1),
     xtable (>= 1.8-2)
 License: GPL-3
