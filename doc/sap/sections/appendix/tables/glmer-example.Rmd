@@ -5,6 +5,7 @@ Sample output from running an example from `?glmer` are shown below along with v
 model1 <- glmer(cbind(incidence, size - incidence) ~ period + (1 | herd),
                 cbpp, binomial, nAGQ = 0)
 model1 %>% summary()
+
 ```
 
 **Random Effects**
@@ -32,5 +33,14 @@ sjp.glmer(model1, type = 'fe')
 ## Model Assumptions
 sjp.glmer(model1, type = 'ma')
 
+
+```
+
+**Cooks Distance**
+```{r glmer-example-model-leverage, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Leverage and Cooks Distance using influence.ME
+model1_influence <- influence(model1, obs = TRUE)
+plot(model1_influence, which = 'cook')
+cooks.distance(model1_influence)
 
 ```
