@@ -79,7 +79,9 @@
 ***** Katie   : Online form will be strict not allowing fields to not be removed.
 **** Effect size is there Minimal Clinically Important Difference for the SSIS in target population?  Is 123 to 147 a change that is noticeable?
 ***** Barry   : Children with such a change would be noticed.
+***** TODO Barry   : Addressed this in the meeting explaining that the Reichow's estimate is a clinically meaningful.
 **** ICC estimated from????  How any clusters in the study on which it was based, what is the effect of varying ICC (perhaps in the range of the CI from the other study).
+***** TODO Ask Dawn for details of sample size calculation and repeat using varying ICC.
 **** Any definition of Per-Protocol, as there may be some drop-out.
 ***** Neil    : Nothing there yet.
 ***** Barry   : We can discuss whether to include this, need
@@ -105,6 +107,10 @@
 **** Clarify outcomes
 **** Per Protocol should e mentioned in the protocol as well as the Statistical Analysis Plan.
 **** Need to prioritise how (or if) we are further stratifying the data based on school sizes.
+**** Number of schools and individuals, as well as the type (Junior/Secondary)
+**** Statistical Analysis Plan
+***** TODO I will have this in place by xmas.  It should align with a HEAP
+**** Health Economics Analysis Plan should also be in place, being done by York, so need to liase with them.
 ** Sample Size in light of clustering
 *** Responding schools have between 1-6 and upto 20 elligible participants
 * 2017-07-31 Dawn Statistical Analaysis                          :statistics:
