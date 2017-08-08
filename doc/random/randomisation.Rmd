@@ -66,25 +66,9 @@ ggplot2.opts$binwidth <- 30
 ```{r child = 'sections/analysis.Rmd', eval = TRUE}
 ```
 
-## Results - Missing Data {.tabset .tabset-fade .tabset-pills}
-```{r child = 'sections/results_missing.Rmd', eval = TRUE}
-```
-
 ## Results - Adverse Events {.tabset .tabset-fade .tabset-pills}
-```{r child = 'sections/results_adverse_events.Rmd', eval = TRUE}
+```{r child = 'sections/results_schedule.Rmd', eval = TRUE}
 ```
-
-## Results - Cohort {.tabset .tabset-fade .tabset-pills}
-```{r child = 'sections/results_cohort.Rmd', eval = TRUE}
-```
-
-## Results - RCT {.tabset .tabset-fade .tabset-pills}
-```{r child = 'sections/results_rct.Rmd', eval = FALSE}
-```
-
-<!-- ## Playground {.tabset .tabset-fade .tabset-pills} -->
-<!-- ```{r child = 'sections/playground.Rmd', eval = FALSE} -->
-<!-- ``` -->
 
 
 ## Appendix   {.tabset .tabset-fade .tabset-pills}
