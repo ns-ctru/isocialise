@@ -27,3 +27,16 @@ randomisation %>%
           colnames = c('Site ID', 'Stratum', 'Block ID', 'Block Size', 'Treatment Allocation'))
 
 ```
+
+```{r results_schedule_upload, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
+## Write the randomisation file to CSV and upload to GoogleSheets
+## First add in an extra blank column for school name to be recorded in
+randomisation$school <- ""
+file <- 'data/randomisation.csv'
+write.csv(randomisation,
+          file = file)
+gs_upload(file = file,
+          sheet_title = 'iSocialise Randomisation Schedule',
+          overwrite   = TRUE)
+
+```
