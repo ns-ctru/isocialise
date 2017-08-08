@@ -40,23 +40,16 @@ ggplot2.opts$binwidth <- 30
 ## directory can become very large!)
 ##
 ## Get the current date
-mtime <- file.info('age-gap.html')$mtime %>% as.Date()
+##  mtime <- file.info('age-gap.html')$mtime %>% as.Date()
 ## Remove existing archives  from today
-cmd <- paste0('rm arch/age-gap-', mtime, '.html.bz2')
-system(cmd)
+## cmd <- paste0('rm arch/age-gap-', mtime, '.html.bz2')
+## system(cmd)
 ## Copy the existing .html to arch, adding todays date and compress
-cmd <- paste0('cp age-gap.html arch/age-gap-', mtime, '.html && bzip2 arch/age-gap-', mtime, '.html')
-system(cmd)
+## cmd <- paste0('cp age-gap.html arch/age-gap-', mtime, '.html && bzip2 arch/age-gap-', mtime, '.html')
+## system(cmd)
 
 ```
 
-```{r covariate_specification, echo = FALSE, cache = FALSE, results = 'hide', eval = TRUE}
-
-```
-
-```{r notifications, echo = FALSE, eval = TRUE}
-
-```
 
 # {.tabset .tabset-fade .tabset-pills}
 ## Overview
