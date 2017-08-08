@@ -68,6 +68,7 @@ ggplot2.opts$binwidth <- 30
 ```
 
 <!--- Run all analyses --->
+## Analysis {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/analysis.Rmd', eval = TRUE}
 ```
 
