@@ -1,0 +1,34 @@
+```{r randomisation, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'hide', eval = TRUE}
+n           <- 20
+num_levels  <- 2
+block_sizes <- 5
+primary_small <- blockrand(n          = n,
+                           num.levels = mnum_levels,
+                           levels     = c('LEGO Therapy', 'Standard Care'),
+                           id         = '',
+                           stratum    = 'Primary; <= 3',
+                           block.sizes = block_sizes)
+primary_large <- blockrand(n          = n,
+                           num.levels = mnum_levels,
+                           levels     = c('LEGO Therapy', 'Standard Care'),
+                           id         = '',
+                           stratum    = 'Primary; > 3',
+                           block.sizes = block_sizes)
+secondary_small <- blockrand(n          = n,
+                             num.levels = mnum_levels,
+                             levels     = c('LEGO Therapy', 'Standard Care'),
+                             id         = '',
+                             stratum    = 'Secondary; <= 3',
+                             block.sizes = block_sizes)
+secondary_large <- blockrand(n          = n,
+                             num.levels = mnum_levels,
+                             levels     = c('LEGO Therapy', 'Standard Care'),
+                             id         = '',
+                             stratum    = 'Secondary; > 3',
+                             block.sizes = block_sizes)
+randomisation <- rbind(primary_small,
+                       primary_large,
+                       secondary_small,
+                       secondary_large)
+
+```
