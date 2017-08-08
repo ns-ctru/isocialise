@@ -1,12 +1,17 @@
 ---
 title: Randomisation Schedule for iSocialise
-runtime: shiny
-output: html_document
+author:
+- Neil Shephard
+output:
+  pdf_document:
+    toc: false
+  html_document:
 bibliography: sections/bibliography.bib
 ---
 
 ```{r setup, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, eval = TRUE}
 library(blockrand)
+library(googlesheets)
 ##opts_chunk$set(dev = 'pdf')
 opts_chunk$set(cache.path = 'cache/',
                width    = 200,
