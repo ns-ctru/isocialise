@@ -8,19 +8,19 @@ This erpository contains the work/code/files for the statistical analysis of the
 
 | Person                                     | Role               | Affiliation              |
 |--------------------------------------------|--------------------|--------------------------|
-| [Prof Barry Wright](barry.wright1@nhs.net) | Chief Investigator | University of York       |
-| [Danielle Varley](danielle.varley@nhs.net) | Trial Manager      | Leeds and York Partnership NHS Foundation Trust |
-| [Katie Biggs](c.e.biggs@sheffield.ac.uk)   | Trial Manager      | University of Sheffield  |
-| [Prof Cindy Cooper](c.l.cooper@sheffield.ac.uk) | CTRU oversight | University of Sheffield |
-| [Dr David Marshall](d.marshall@york.ac.uk) | Consultant         | University of York       |
-| [Prof Ann Le Couteur](a.s.le-couteur@newcastle.ac.uk) | Consultant | Newcastle University  |
-| [Dr Shehzad Ali](shehzad.ali@york.ac.uk)   | Health Economist   | University of York       |
-| [Prof Simon Gilbody](simon.gilbody@york.ac.uk) | Consultant     | University of York       |
-| [Dr Marion Dawn Teare](m.d.teare@sheffield.ac.uk) | Senior Statistician | University of Sheffield |
-| [Ms Anne McKelvey](anne.mckelvey@york.gov.uk) | Consultant      | York City Council        |
-| [Dr Georgina Gomez de la Cuesta](ginagomez@live.co.uk) | Consultant | Bricks for Autism    |
-| [Dr Lizzie Coates](e.coates@sheffield.ac.uk) | Qualitative researcher | University of Sheffield |
-| [Neil Shephard](n.shephard@sheffield.ac.uk) | Statistician           | University of Sheffield |
+| [Prof Barry Wright](mailto:barry.wright1@nhs.net) | Chief Investigator | University of York       |
+| [Danielle Varley](mailto:danielle.varley@nhs.net) | Trial Manager      | Leeds and York Partnership NHS Foundation Trust |
+| [Katie Biggs](mailto:c.e.biggs@sheffield.ac.uk)   | Trial Manager      | University of Sheffield  |
+| [Prof Cindy Cooper](mailto:c.l.cooper@sheffield.ac.uk) | CTRU oversight | University of Sheffield |
+| [Dr David Marshall](mailto:d.marshall@york.ac.uk) | Consultant         | University of York       |
+| [Prof Ann Le Couteur](mailto:a.s.le-couteur@newcastle.ac.uk) | Consultant | Newcastle University  |
+| [Dr Shehzad Ali](mailto:shehzad.ali@york.ac.uk)   | Health Economist   | University of York       |
+| [Prof Simon Gilbody](mailto:simon.gilbody@york.ac.uk) | Consultant     | University of York       |
+| [Dr Marion Dawn Teare](mailto:m.d.teare@sheffield.ac.uk) | Senior Statistician | University of Sheffield |
+| [Ms Anne McKelvey](mailto:anne.mckelvey@york.gov.uk) | Consultant      | York City Council        |
+| [Dr Georgina Gomez de la Cuesta](mailto:ginagomez@live.co.uk) | Consultant | Bricks for Autism    |
+| [Dr Lizzie Coates](mailto:e.coates@sheffield.ac.uk) | Qualitative researcher | University of Sheffield |
+| [Neil Shephard](mailto:n.shephard@sheffield.ac.uk) | Statistician           | University of Sheffield |
 
 
 The Statistical Analysis Plan is written in [RMarkdown](http://rmarkdown.rstudio.com/) to allow detailed version control within this repository and can be found within `doc/sap/`.
