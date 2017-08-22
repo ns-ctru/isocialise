@@ -1,3 +1,35 @@
+```{r distribution, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'hide', eval = TRUE}
+## Download data provided by Dani.
+eligible_students <- list()
+eligible_students$gs         <- googlesheets::gs_title('School EOI list  - Anonymised 14082017.xlsx')
+eligible_students$raw        <- eligible_students$gs %>%
+                                gs_read(ws = 'Sheet1')
+names(eligible_students$raw) <- c('school_id', 'Area', 'Eligible', 'lego_therapy', 'Type',
+                                  'X1', 'X2', 'X3', 'X4', 'X5')
+eligible_students$df        <- eligible_students$raw %>%
+                               dplyr::select(school_id, Area, Eligible, lego_therapy, Type) %>%
+                               mutate(Area         = factor(Area,
+                                                            levels = c(1, 2, 3),
+                                                            labels = c('Leeds', 'York', 'Sheffield')),
+                                      Eligible     = ifelse(Eligible == 'TBA',
+                                                            yes = NA,
+                                                            no  = as.numeric(Eligible)),
+                                      ## lego_therapy = case_when(lego_therapy == 'No'  ~ 'No',
+                                      ##                          grepl('Yes',
+                                      ##                                lego_therapy,
+                                      ##                                ignore.case = TRUE) ~ 'Yes'),
+                                      ## lego_therapy = factor(lego_therapy,
+                                      ##                       labels = c('No', 'Yes')),
+                                      Type         = factor(Type,
+                                                            labels = c('Primary', 'Primary + Secondary', 'Secondary')))
+## Tables
+eligible_students$table_area_type <- eligible_students$df %$%
+                                     table(Area, Type)
+eligible_students$table_type_eligible <- eligible_students$df %$%
+                                         table(Type, Eligible)
+
+```
+
 The following code generated the randomisation schedule.
 
 ```{r analysis, cache = FALSE, echo = TRUE, warnings = FALSE, results = 'hide', eval = TRUE}
