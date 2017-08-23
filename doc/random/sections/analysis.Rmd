@@ -27,6 +27,17 @@ eligible_students$table_area_type <- eligible_students$df %$%
                                      table(Area, Type)
 eligible_students$table_type_eligible <- eligible_students$df %$%
                                          table(Type, Eligible)
+## Figures
+eligible_students$figure_area <- eligible_students %>%
+                                 ggplot(aes(x = Eligible, colour = Type)) +
+                                 geom_histogram() +
+                                 facet_wrap(~Area) +
+                                 theme_bw()
+eligible_students$figure_type <- eligible_students %>%
+                                 ggplot(aes(x = Eligible)) +
+                                 geom_histogram() +
+                                 facet_wrap(~Type) +
+                                 theme_bw()
 
 ```
 
