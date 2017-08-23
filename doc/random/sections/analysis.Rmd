@@ -3,9 +3,10 @@
 eligible_students <- list()
 eligible_students$gs         <- googlesheets::gs_title('School EOI list  - Anonymised 14082017.xlsx')
 eligible_students$raw        <- eligible_students$gs %>%
-                                gs_read(ws = 'Sheet1')
-names(eligible_students$raw) <- c('school_id', 'Area', 'Eligible', 'lego_therapy', 'Type',
-                                  'X1', 'X2', 'X3', 'X4', 'X5')
+                                gs_read(ws = 'Sheet1',
+                                        range = cell_cols(1:5))
+names(eligible_students$raw) <- c('school_id', 'Area', 'Eligible', 'lego_therapy', 'Type')
+                                  ## 'X1', 'X2', 'X3', 'X4', 'X5')
 eligible_students$df         <- eligible_students$raw %>%
                                 dplyr::select(school_id, Area, Eligible, lego_therapy, Type) %>%
                                 mutate(Area         = factor(Area,
