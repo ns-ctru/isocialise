@@ -1,0 +1,36 @@
+As of `r eligible_students$gs$updated` a total of `r eligible_students$n_sites` had expressed interest in participating in the study, although only `r eligible_students$n_eligible` sites have provided an estimate of the number of eligible students.  The distribution of eligible students by school (i.e. cluster) is summarised in the graphs and table below.
+
+It is clear that there is scope for imbalance due to schools with a large number of eligible students, but its worth bearing in mind that currently only roughly half of schools that have expressed an interest in participating have provided details of the number of eligible students, and it may be that there is a more even distribution once this data is available.  At present the randomisation scheduled has been stratified on both school type and having more or less than three eligible students resulting in four strata, although it may be desirable to use a slightly higher threshold (the randomisation scheduled will not need changing beyond the labels though as there would still only be four strata).  Further not all eligible students will be willing to participate in the study.  One important issue this raises however is the possibility of a second level of clustering since the LEGO therapy is delivered in small groups and a given school with >3 participants may have the therapy delivered by two different therapists.  To which end it may be worth considering a second level of grouping by therapist, nested within schools, for the mixed model when it comes to analysing the data.
+
+```{r results_eligible_figure_type_area, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
+eligible_students$figure_area_type
+eligible_students$df[eligible_students$df$Area == 'Leeds',] %$%
+    table(Type, Eligible) %>%
+    kable(caption = 'Number of Eligible students at different types of schools in the Leeds area.')
+eligible_students$df[eligible_students$df$Area == 'York',] %$%
+    table(Type, Eligible) %>%
+    kable(caption = 'Number of Eligible students at different types of schools in the York area.')
+eligible_students$df[eligible_students$df$Area == 'Sheffield',] %$%
+    table(Type, Eligible) %>%
+    kable(caption = 'Number of Eligible students at different types of schools in the Sheffield area.')
+
+
+```
+
+
+```{r results_eligible_figure_type, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
+eligible_students$figure_type
+eligible_students$df %$%
+    table(Type, Eligible) %>%
+    kable(caption = 'Number of Eligible students by Type of school.')
+
+
+```
+
+```{r results_eligible_figure_area, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
+eligible_students$figure_area
+eligible_students$df %$%
+    table(Area, Eligible) %>%
+    kable(caption = 'Number of Eligible students by Area.')
+
+```
