@@ -1,1 +1,7 @@
+### Distribution of Eligible Students
+
+The number of eligible students by school type and area are summarised as tables and histograms.
+
+### Randomisation Schedule
+
 The R package [`blockrand`](https://cran.r-project.org/web/packages/blockrand/index.html) is used to derive a block-randomisation schedule within each strata.  Blocks are of size 5 and there are two stratification variables, school type (`Primary` v's `Secondary`) and >3 elligible participants (`<= 3` v's `> 3`).  Thus four block-randomised lists are derived and appended to give the overall randomisation list.  The distribution of allocations is assessed graphically and in tabular format to provide the reader with an assessment of the randomisation and balance attained.
