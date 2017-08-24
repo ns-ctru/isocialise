@@ -3,9 +3,9 @@ title: Randomisation Schedule for iSocialise
 author:
 - Neil Shephard
 output:
+  html_document:
   pdf_document:
     toc: false
-  html_document:
 bibliography: sections/bibliography.bib
 ---
 
@@ -70,6 +70,10 @@ ggplot2.opts$binwidth <- 30
 <!--- Run all analyses --->
 ## Analysis {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/analysis.Rmd', eval = TRUE}
+```
+
+## Eligible Students {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/results_eligible.Rmd', eval = TRUE}
 ```
 
 ## Randomisation Schedule {.tabset .tabset-fade .tabset-pills}
