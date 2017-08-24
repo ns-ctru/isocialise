@@ -29,15 +29,23 @@ eligible_students$table_area_type <- eligible_students$df %$%
 eligible_students$table_type_eligible <- eligible_students$df %$%
                                          table(Type, Eligible)
 ## Figures
-eligible_students$figure_area <- eligible_students %>%
-                                 ggplot(aes(x = Eligible, colour = Type)) +
+eligible_students$figure_area_type <- eligible_students$df %>%
+                                      ggplot(aes(x = Eligible, fill = Type)) +
+                                      geom_histogram() +
+                                      facet_wrap(~Area) +
+                                      ylab('N') +
+                                      theme_bw()
+eligible_students$figure_type <- eligible_students$df %>%
+                                 ggplot(aes(x = Eligible, fill = Type)) +
                                  geom_histogram() +
-                                 facet_wrap(~Area) +
+                                 ## facet_wrap(~Type) +
+                                 ylab('N') +
                                  theme_bw()
-eligible_students$figure_type <- eligible_students %>%
-                                 ggplot(aes(x = Eligible)) +
+eligible_students$figure_area <- eligible_students$df %>%
+                                 ggplot(aes(x = Eligible, fill = Area)) +
                                  geom_histogram() +
-                                 facet_wrap(~Type) +
+                                 ## facet_wrap(~Type) +
+                                 ylab('N') +
                                  theme_bw()
 
 ```
