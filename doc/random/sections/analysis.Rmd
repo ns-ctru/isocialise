@@ -47,6 +47,13 @@ eligible_students$figure_area <- eligible_students$df %>%
                                  ## facet_wrap(~Type) +
                                  ylab('N') +
                                  theme_bw()
+## Summary numbers for inclusion in text
+eligible_students$n_sites    <- eligible_students$df %>%
+                                nrow()
+eligible_students$n_eligible <- eligible_students$df[!is.na(eligible_students$df$Eligible),] %>%
+                                nrow()
+save(eligible_students,
+     file = 'data/eligible_students.RData')
 
 ```
 
