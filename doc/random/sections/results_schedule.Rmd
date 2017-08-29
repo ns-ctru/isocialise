@@ -1,6 +1,3 @@
-**TODO** Awaiting details of schools that have expressed an interest in participation.
-
-
 Each block had a total of `r n` allocations generated in blocks of size `r block_sizes` for two possible levels (`Standard Care` and `LEGO Therapy`), although because of the underlying way in which block sizes are randomised there is the possibility tha the total number of allocations within a stratum may exceed `r n`.  This was repeated four times over for the four possible stratum formed from the two two-level stratification variables (`Primary` v's `Secondary` school type and `<= 3` v's `> 3` eligible participants).
 
 
@@ -26,7 +23,7 @@ The full randomisation schedule is printed below for reference and has been uplo
 ```{r results_schedule_full, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
 randomisation %>%
     kable(caption = 'Full Randomisation schedule by Strata',
-          col.names = c('Site ID', 'Stratum', 'Block ID', 'Block Size', 'Treatment Allocation', 'School'))
+          col.names = c('Site ID', 'Stratum', 'Block ID', 'Block Size', 'Treatment Allocation'))
 
 ```
 
