@@ -6,6 +6,7 @@ bibliography: sections/bibliography.bib
 
 ```{r setup, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, eval = TRUE}
 library(lme4)
+library(influence.ME)
 library(sjPlot)
 library(agegap)
 ##opts_chunk$set(dev = 'pdf')
