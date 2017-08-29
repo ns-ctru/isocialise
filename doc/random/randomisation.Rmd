@@ -4,6 +4,7 @@ author:
 - Neil Shephard
 output:
   html_document:
+  word_document:
   pdf_document:
     toc: false
 bibliography: sections/bibliography.bib
@@ -62,7 +63,7 @@ ggplot2.opts$binwidth <- 30
 ```{r child = 'sections/overview.Rmd', eval = TRUE}
 ```
 
-## Methods {.tabset .tabset-fade .tabset-pills}
+## Methods <!-- {.tabset .tabset-fade .tabset-pills} -->
 
 ```{r child = 'sections/methods.Rmd', eval = TRUE}
 ```
