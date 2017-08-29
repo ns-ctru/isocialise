@@ -1,5 +1,7 @@
 Sample output from running an example from `?glmer` are shown below along with various fixed and random effects plots followed by a plot of model assumptions.
 
+**ToDo** Establish which diagnostic plots are of interest, some examples below, more are possible, I could plot them all, but would like to discuss which are preferred.
+
 ```{r glmer-example, echo = TRUE, warning = FALSE, message = FALSE, results = 'show', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Run a dummy glmer model on sample data to demonstrate the structure of output
 model1 <- glmer(cbind(incidence, size - incidence) ~ period + (1 | herd),
@@ -9,7 +11,7 @@ model1 %>% summary()
 ```
 
 **Random Effects**
-```{r glmer-example-random-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```{r glmer-example-random-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Diagnostic plots (see http://www.strengejacke.de/sjPlot/sjp.glmer/)
 sjp.setTheme(base = theme_bw())
 ## Random Effects
@@ -17,19 +19,56 @@ sjp.glmer(model1, type = 're')
 ```
 
 **Random Effects Quantile Plot**
-```{r glmer-example-random-effects-qq, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```{r glmer-example-random-effects-qq, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Quantile Plots for Random Effects
 sjp.glmer(model1, type = 're.qq')
 ```
 
 **Fixed Effects**
-```{r glmer-example-fixed-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```{r glmer-example-fixed-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Fixed Effects
 sjp.glmer(model1, type = 'fe')
+
+```
+**Fitted Values**
+```{r glmer-example-fixed-fitted, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+## Fixed Effects
+## Extract data and predicted values, binding into a dataframe for plotting
+model1_fitted <- data.frame(model1@frame, fitted_re = fitted(model1))
+names(model1_fitted) <- c('Incidence', 'Period', 'Herd', 'Fitted')
+model1_fixed <- fixef(model1) %>% data.frame()
+ggplot(model1_fitted, aes(x      = Period,
+                          y      = Fitted,
+                          colour = Herd)) +
+    geom_point() +
+    geom_abline(intercept = model1_fixed[1,1],
+                slope     = model1_fixed[2,1]) +
+    geom_abline(intercept = model1_fixed[1,1],
+                slope     = model1_fixed[3,1]) +
+    geom_abline(intercept = model1_fixed[1,1],
+                slope     = model1_fixed[4,1])  +
+    theme_bw()
+
+
+
 ```
 
+**Residuals v Fitted**
+```{r glmer-example-fixed-residual-fitted, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+model1_residual_fitted <- data.frame(Fitted    = fitted(model1),
+                                     Residuals = residuals(model1))
+ggplot(model1_residual_fitted,
+       aes(x = Fitted,
+           y = Residuals)) +
+    geom_point() +
+    theme_bw()
+
+```
+
+**ToDo** Are Standardise residuals and Fitted values for a true Q-Q Plot desirable?
+
 **Model Assumptions**
-```{r glmer-example-model-assumptions, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```{r glmer-example-model-assumptions, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Model Assumptions
 sjp.glmer(model1, type = 'ma')
 
@@ -37,7 +76,7 @@ sjp.glmer(model1, type = 'ma')
 ```
 
 **Cooks Distance**
-```{r glmer-example-model-leverage, echo = FALSE, warning = FALSE, message = FALSE, results = 'asis', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```{r glmer-example-model-leverage, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Leverage and Cooks Distance using influence.ME
 model1_influence <- influence(model1, obs = TRUE)
 plot(model1_influence, which = 'cook')
