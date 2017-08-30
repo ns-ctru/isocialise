@@ -64,28 +64,28 @@ n           <- 50
 num_levels  <- 2
 block_sizes <- 5
 primary_small <- blockrand(n            = n,
-                           num.levels   = mnum_levels,
+                           num.levels   = num_levels,
                            levels       = c('LEGO Therapy', 'Standard Care'),
                            id.prefix    = 'PRI_SM',
                            stratum      = 'Primary; <= 3',
                            block.sizes  = block_sizes)
-block_sizes <- 3
+block_sizes <- 2
 primary_large <- blockrand(n          = n,
-                           num.levels = mnum_levels,
+                           num.levels = num_levels,
                            levels     = c('LEGO Therapy', 'Standard Care'),
                            id.prefix = 'PRI_LG',
                            stratum    = 'Primary; > 3',
                            block.sizes = block_sizes)
 block_sizes <- 5
 secondary_small <- blockrand(n          = n,
-                             num.levels = mnum_levels,
+                             num.levels = num_levels,
                              levels     = c('LEGO Therapy', 'Standard Care'),
                              id.prefix = 'SEC_SM',
                              stratum    = 'Secondary; <= 3',
                              block.sizes = block_sizes)
-block_sizes <- 3
+block_sizes <- 2
 secondary_large <- blockrand(n          = n,
-                             num.levels = mnum_levels,
+                             num.levels = num_levels,
                              levels     = c('LEGO Therapy', 'Standard Care'),
                              id.prefix = 'SEC_LG',
                              stratum    = 'Secondary; > 3',
