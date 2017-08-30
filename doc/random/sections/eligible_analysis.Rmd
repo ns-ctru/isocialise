@@ -1,0 +1,95 @@
+```{r distribution, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'hide', eval = TRUE}
+## Download data provided by Dani.
+eligible_students <- list()
+eligible_students$gs         <- googlesheets::gs_title('School EOI list  - Anonymised 14082017.xlsx')
+eligible_students$raw        <- eligible_students$gs %>%
+                                gs_read(ws = 'Sheet1',
+                                        range = cell_cols(1:5))
+names(eligible_students$raw) <- c('school_id', 'Area', 'Eligible', 'lego_therapy', 'Type')
+                                  ## 'X1', 'X2', 'X3', 'X4', 'X5')
+eligible_students$df         <- eligible_students$raw %>%
+                                dplyr::select(school_id, Area, Eligible, lego_therapy, Type) %>%
+                                mutate(Area         = factor(Area,
+                                                             levels = c(1, 2, 3),
+                                                             labels = c('Leeds', 'York', 'Sheffield')),
+                                       Eligible     = ifelse(Eligible == 'TBA',
+                                                             yes = NA,
+                                                             no  = as.numeric(Eligible)),
+                                       ## lego_therapy = case_when(lego_therapy == 'No'  ~ 'No',
+                                       ##                          grepl('Yes',
+                                       ##                                lego_therapy,
+                                       ##                                ignore.case = TRUE) ~ 'Yes'),
+                                       ## lego_therapy = factor(lego_therapy,
+                                       ##                       labels = c('No', 'Yes')),
+                                       Type         = factor(Type,
+                                                            labels = c('Primary', 'Primary + Secondary', 'Secondary')))
+## Tables
+eligible_students$table_area_type <- eligible_students$df %$%
+                                     table(Area, Type)
+eligible_students$table_type_eligible <- eligible_students$df %$%
+                                         table(Type, Eligible)
+## Figures
+eligible_students$figure_area_type <- eligible_students$df %>%
+                                      ggplot(aes(x = Eligible, fill = Type)) +
+                                      geom_histogram() +
+                                      facet_wrap(~Area) +
+                                      ylab('N') +
+                                      theme_bw()
+eligible_students$figure_type <- eligible_students$df %>%
+                                 ggplot(aes(x = Eligible, fill = Type)) +
+                                 geom_histogram() +
+                                 ## facet_wrap(~Type) +
+                                 ylab('N') +
+                                 theme_bw()
+eligible_students$figure_area <- eligible_students$df %>%
+                                 ggplot(aes(x = Eligible, fill = Area)) +
+                                 geom_histogram() +
+                                 ## facet_wrap(~Type) +
+                                 ylab('N') +
+                                 theme_bw()
+## Summary numbers for inclusion in text
+eligible_students$n_sites    <- eligible_students$df %>%
+                                nrow()
+eligible_students$n_eligible <- eligible_students$df[!is.na(eligible_students$df$Eligible),] %>%
+                                nrow()
+save(eligible_students,
+     file = '../data/eligible_students.RData')
+
+```
+
+<!-- The following code generated the randomisation schedule. -->
+
+```{r analysis, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'hide', eval = FALSE}
+n           <- 50
+num_levels  <- 2
+block_sizes <- 5
+primary_small <- blockrand(n            = n,
+                           num.levels   = mnum_levels,
+                           levels       = c('LEGO Therapy', 'Standard Care'),
+                           id.prefix    = 'PRI_SM',
+                           stratum      = 'Primary; <= 3',
+                           block.sizes  = block_sizes)
+primary_large <- blockrand(n          = n,
+                           num.levels = mnum_levels,
+                           levels     = c('LEGO Therapy', 'Standard Care'),
+                           id.prefix = 'PRI_LG',
+                           stratum    = 'Primary; > 3',
+                           block.sizes = block_sizes)
+secondary_small <- blockrand(n          = n,
+                             num.levels = mnum_levels,
+                             levels     = c('LEGO Therapy', 'Standard Care'),
+                             id.prefix = 'SEC_SM',
+                             stratum    = 'Secondary; <= 3',
+                             block.sizes = block_sizes)
+secondary_large <- blockrand(n          = n,
+                             num.levels = mnum_levels,
+                             levels     = c('LEGO Therapy', 'Standard Care'),
+                             id.prefix = 'SEC_LG',
+                             stratum    = 'Secondary; > 3',
+                             block.sizes = block_sizes)
+randomisation <- rbind(primary_small,
+                       primary_large,
+                       secondary_small,
+                       secondary_large)
+
+```
