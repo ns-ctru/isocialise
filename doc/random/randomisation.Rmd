@@ -3,10 +3,11 @@ title: Randomisation Schedule for iSocialise
 author:
 - Neil Shephard
 output:
-  html_document:
-  word_document:
   pdf_document:
     toc: false
+output:
+  html_document:
+  word_document:
 bibliography: sections/bibliography.bib
 ---
 
