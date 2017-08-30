@@ -1,5 +1,21 @@
 * 2017-08-30 [TMG] Sheffield                                            :tmg:
-**
+** Inter Rater Reliability for video assessments?  Something to go in the SAP?
+** TSC
+*** Suggestion - tighten eligibility
+*** Suggestion - attrition
+*** Suggestion - clarification on blinding of RA
+*** Suggestion - Blinding of those who are completing the SSIS
+*** Suggestion - SSIS changing with age?
+*** Suggestion - Stratifying randomisation of schools as special unit
+** Statistics
+*** Possibly need to stratify on speialist units too
+**** Since they might have different abilities or experiencec of handling autism.
+**** There are however only a couple of such schools.
+*** Per-Protocol analyses - what are the criteria...
+**** Have attended 8 out of 12 sessions?
+**** Other things???
+*** [ANNE] - SCQ at baseline as a covariate as its a proxy for ASD severity.
+**** Anything else?
 * 2017-08-02 [TSC] York                                                 :tsc:
 ** Protocol : Clarify that week 52 should be excluded from section 10.3 on pg41
 *** David Cottrell
@@ -109,7 +125,7 @@
 *** TODO Protocol Approval by Trial Steering Committee
 **** Make Changes and suggestions pretty soon.
 **** Clarify outcomes
-**** Per Protocol should e mentioned in the protocol as well as the Statistical Analysis Plan.
+**** Per Protocol should be mentioned in the protocol as well as the Statistical Analysis Plan.
 **** Need to prioritise how (or if) we are further stratifying the data based on school sizes.
 **** Number of schools and individuals, as well as the type (Junior/Secondary)
 **** Statistical Analysis Plan
@@ -123,9 +139,9 @@
 *** TODO Dawn suggests that because we have to have consent of participants prior to randomising them we could stratify further (beyond the existing Primary/Secondary) on there being >3 participants.
 *** TODO Incorporate this in the randomisation, but what does this mean in terms of power/sample size?
 *** TODO The ICC may be higher if there are larger clusters, this in turn might inflate the sample size further.  And to answer this we need to know what the likelihood is of having clusters >2???  Ask this on Wednesday, any experience from Assist?
-*** TODO IS there any clustering in the control arm?  If so this might revise the sample size.
+*** TODO Is there any clustering in the control arm?  If so this might revise the sample size.
 *** TODO Based on previous discussions (Dawn) they felt that it unlikely that all of the eligible students will be recruited.  May already have been discussed.  The two per school is estimated on 1-6 at each school.
 *** TODO BMJ Open paper https://bmjopen.bmj.com/content/bmjopen/6/8/e011748.full.pdf
 ** TODO Statistical Analysis Plan
-*** TODO First draft in plae with lots of copy and paste from the Protocol.
+*** TODO First draft in place with lots of copy and paste from the Protocol.
 **** TODO Protocol stats that repeated measures is primary outcome, but need to remove this as its just 16 weeks.
