@@ -94,5 +94,16 @@ randomisation <- rbind(primary_small,
                        primary_large,
                        secondary_small,
                        secondary_large)
+## Originally when developing the code unique prefixes were used within
+## exach strata, but this would mean that centres/schools could be
+## identified based on these and for some reason the Statistician has to
+## remain blind, therefore modify the id to be unique and unidentifiable
+## across all strata
+randomisation <- randomisation %>%
+                 mutate(row = rownames(.),
+                        id = case_when(nchar(row) == 1 ~ paste0('SCH', '00', row),
+                                       nchar(row) == 2 ~ paste0('SCH', '0', row),
+                                       nchar(row) == 3 ~ paste0('SCH', row))) %>%
+                 dplyr::select(-row)
 
 ```
