@@ -16,9 +16,12 @@ ggplot(randomisation,
 ```
 
 
-The full randomisation schedule is printed below for reference and has been uploaded to a [Google Sheet](https://docs.google.com/a/sheffield.ac.uk/spreadsheets/d/1FiaitHHY4lusGC64vxAtKYaOOIsUL6TLQafDin-gSNY/edit?usp=sharing) for use by study managers in randomising schools and data management and statistics in analysis.
+The full randomisation schedule is printed below for reference and has been uploaded to a [Google Sheet](https://docs.google.com/a/sheffield.ac.uk/spreadsheets/d/1FiaitHHY4lusGC64vxAtKYaOOIsUL6TLQafDin-gSNY/edit?usp=sharing) ([https://docs.google.com/a/sheffield.ac.uk/spreadsheets/d/1FiaitHHY4lusGC64vxAtKYaOOIsUL6TLQafDin-gSNY/edit?usp=sharing](https://docs.google.com/a/sheffield.ac.uk/spreadsheets/d/1FiaitHHY4lusGC64vxAtKYaOOIsUL6TLQafDin-gSNY/edit?usp=sharing)) for use by study managers in randomising schools and data management and statistics in analysis.  Please contact [Neil Shephard](mailto:n.shephard@sheffield.ac.uk) for permission to modify this document.
 
-**TODO** Possibly change the `id` to be neutral with regards to allocation due to blinding.
+### Using the Randomisation Schedule
+
+Using the randomisation schedule is straight-forward.  When a school is ready to be randomised look at the characteristics on which it is being stratified, i.e. Primary or Secondary and whether there are <6 or >= 6 consented participants.  Based on this go to the first row for the given stratum for which there is a blank allocation and enter the schools name and inform them of their allocation which is in the column `treatment`.  For example the first school to be randomised is a Secondary school with less than 6 consented participants, this stratum begins on row 102 of the spreadsheet and allocates the school to `Standard Care`.  If the second school for randomisation is a Primary School with >= 6 consented participants the stratum begins on row 52 and allocates the school to `Standard Care`.  If the third school is also a Primary School with >= 6 consented participants the next allocation within this stratum is on row 53 and allocates the school to `LEGO Therapy`.  Repeat for each school that needs randomising.
+
 
 ```{r results_schedule_full, cache = FALSE, echo = FALSE, warnings = FALSE, results = 'show', eval = TRUE}
 randomisation %>%
