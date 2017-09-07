@@ -1,4 +1,4 @@
-This randomisation schedule is derived based on the code used for the Age-Gap study.  The relevant file can be found at `../xdrive/PR_Age_Gap/Restricted/Randomisation/Randomisation\ list/Randomisation\ list.R` and the code is included below for reference should any queries arise about the methods employed in this study.
+This randomisation schedule is derived based on the code used for the Age-Gap study (although it us unclear who wrote that code since the work directory does not contain deatils of who created it as this document does).  The relevant file can be found at `../xdrive/PR_Age_Gap/Restricted/Randomisation/Randomisation\ list/Randomisation\ list.R` and the code is included below for reference should any queries arise about the methods employed in this study.
 
     ## set working directory to load stratification lists
     setwd("N:/projects/Age Gap Restricted/Randomisation/Stratification")
