@@ -1,6 +1,9 @@
 Sample output from running an example from `?glmer` are shown below along with various fixed and random effects plots followed by a plot of model assumptions.
 
+**ToDo** Establish exact statistical method to be used, should perhaps [regression splines](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_splines) to allow for non-linear response?
+
 **ToDo** Establish which diagnostic plots are of interest, some examples below, more are possible, I could plot them all, but would like to discuss which are preferred.
+
 
 ```{r glmer-example, echo = TRUE, warning = FALSE, message = FALSE, results = 'show', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Run a dummy glmer model on sample data to demonstrate the structure of output
@@ -78,7 +81,7 @@ sjp.glmer(model1, type = 'ma')
 **Cooks Distance**
 ```{r glmer-example-model-leverage, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Leverage and Cooks Distance using influence.ME
-model1_influence <- influence(model1, obs = TRUE)
+model1_influence <- influence.ME::influence(model1, obs = TRUE)
 plot(model1_influence, which = 'cook')
 cooks.distance(model1_influence)
 
