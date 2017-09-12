@@ -8,11 +8,6 @@ Table : Follow-Up by Intervention Arm.
 |                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)    | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
 |                 |          | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
 |                 |          |  Min - Max              | XX - XX              | XX - XX              | XX - XX              || Multidimensional Scale of Perceived Social Support | 16 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
-|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
-|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
-|                 | 52 Weeks | Mean (SD) | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)|
-|                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
-|                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
 | Asher Loneliness Scale  | 16 Weeks | Mean (SD)      | XX.XX (XX.XX)        | XX.XX (XX.XX)        | XX.XX (XX.XX)        |
 |                 |           | Median (IQR)           | XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)| XX.XX (XX.XX - XX.XX)|
 |                 |           | Min - Max              | XX - XX              | XX - XX              | XX - XX              |
