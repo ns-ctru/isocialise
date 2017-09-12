@@ -60,6 +60,6 @@ Tables and graphs summarising the  baseline measurements by treatment arm and ov
 
 In keeping with best practice [@vickers2012], assessment tools that produce scores on a numeric bounded scale will be analysed as such rather than categorising into two or more arbitrary categories (for more on problems with this approach see also [here](http://biostat.mc.vanderbilt.edu/wiki/Main/CatContinuous)), however if there is evidence of non-linearity flexibile parametric approaches will be investigated.
 
-**ToDo** Decide methods, perhaps regression splines? input from Dawn
+**ToDo** Decide methods, perhaps [regression splines](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_splines)? input from Dawn
 
 **ToDo** 2017-08-30 - It was mentioned that there is some video analysis to be performed blinded by two independant assessors and that the Inter Rater Reliability will be calculated.  Is this something that should be included in the Statistical Analysis Plan.
