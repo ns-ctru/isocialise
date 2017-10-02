@@ -3,9 +3,9 @@ title: Randomisation Schedule for iSocialise
 author:
 - Neil Shephard
 output:
+  html_document:
   pdf_document:
     toc: false
-  html_document:
   word_document:
 bibliography: sections/bibliography.bib
 ---
@@ -28,7 +28,7 @@ options(digits = 3,
 ## Hooks
 ## knit_hooks$set(anchor = hook_anchor)
 ## Set a seed
-set.seed(69027181)
+set.seed(9977974)
 ## Set sensible defaults
 ggplot2.opts <- list()
 ggplot2.opts$binwidth <- 30
