@@ -1,15 +1,93 @@
-| Assessed        | Form          | Field(s)        | Data Type       | Summary     | Plot       |
-|:----------------|:--------------|:----------------|:----------------|:------------|:-----------|
-| Interventionist | Acceptability | 1-10            | Likert (1-5)    | Proportions | Likert Plot|
-| Interventionist | Demographics  | Relationship    | Categorical (3) | Proportions | Likert Plot|
-| Interventionist | Demographics  | Ethnicity       | Categorical (19)| Proportions | Likert Plot|
-| Interventionist | Demographics  | Role/Occupation | Categorical (10)| Proportions | Likert Plot|
-| Interventionist | Demographics  | Union Membership(?)| Categorical (10)| Proportions | Likert Plot|
-| Interventionist | Demographics  | Intervention/Support experience | Categorical (24)| Proportions / Mean/SD of duration | Likert Plots |
-| Interventionist | Demographics  | Years Working   | Numerical | Mean/SD/Median/IQR | Histogram |
-| Interventionist | Demographics  | Experience ASD  | Categorical (4) | Proportions | Likert Plot|
-| Interventionist | Discontinuation| Reason for Withdrawal| Categorical (3)| Proportions | Likert Plot|
+| Form          | Field(s)        | Data Type       | Summary     | Plot       |
+|:--------------|:----------------|:----------------|:------------|:-----------|
+| Acceptability | 1-10            | Likert (1-5)    | Proportions | Likert Plot|
+| Demographics  | Relationship    | Categorical (3) | Proportions | Bar Chart  |
+|               | Ethnicity       | Categorical (19)| Proportions | Bar Chart  |
+|               | Role/Occupation | Categorical (10)| Proportions | Bar Chart  |
+|               | Union Membership(?)| Categorical (10)| Proportions | Likert Plot|
+|               | Intervention/Support experience | Categorical (24)| Proportions / Mean/SD of duration | Likert Plots |
+|               | Years Working   | Numerical | Mean/SD/Median/IQR | Histogram |
+|               | Experience ASD  | Categorical (4) | Proportions | Likert Plot|
+| Discontinuation| Reason for Withdrawal| Categorical (3)| Proportions | Likert Plot|
+
+Table: Fields and methods of summation for Interventionst Case Report Forms
 
 
+| Form                 | Field(s)          | Data Type   | Summary            | Plot      |
+|:---------------------|:------------------|:------------|:-------------------|:----------|
+| Fidelity Checklist   | 1-20              | Binary      | Proportions        | Bar Chart |
+| Session Resource Use | ASD attendees     | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | non-ASD attendees | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Interventionists  | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Time Planning     | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Length of Session | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Session Setup     | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Session Clearup   | Numerical   | Mean/SD/Median/IQR | Histogram |
+|                      | Problems during Session | Binary   | Proportion      | Bar Chart |
+|                      | Additional Work   | Binary      | Proportion         | Bar Chart |
+|                      | Additional Work (Other) | Binary   | Proportion      | Bar Chart |
 
-Table:
+
+Table : Fields and methods of summation for Intervention Case Report Forms
+
+| Form                  | Field(s)        | Data Type   | Summary    | Plot       |
+|:----------------------|:----------------|:------------|:-----------|:-----------|
+| Demographics          | Childs Gender   | Binary      | Proportion | Bar Chart  |
+|                       | Childs Age (derived) | Numerical   | Mean/SD/Median/IQR | Histogram   |
+|                       | Childs Ethnicity| Categorical (19)| Proportions | Likert Plot|
+|                       | ASD Status      | Binary      | Proportion | Bar Chart  |
+|                       | ASD Diagnosis   | Categorical (6) | Proportion | Bar Chart  |
+|                       | Multi-disciplinary Assessment | Binary | Proportion | Bar Chart  |
+|                       | ASD Instrument  | Categorical (7) | Proportion  | Bar Chart |
+|                       | Age at Diagnosis| Numerical       | Mean/SD/Median/IQR | Histogram |
+|                       | Letter detailing diagnosis | Binary | Proportion | Bar Chart |
+|                       | CAMHS Support | Binary | Proportion | Bar Chart |
+|                       | Relationship    | Categorical (4)   | Proportion | Bar Chart   |
+|                       | Parents Age (derived) | Numerical   | Mean/SD/Median/IQR | Histogram   |
+|                       | Parents Gender  | Binary      | Proportion | Bar Chart  |
+|                       | Parents Ethnicity| Categorical (19)| Proportions | Likert Plot|
+|                       | Relationship Status | Categorical (4) | Proportions | Bar Chart |
+|                       | Household Size >18  | Numerical   | Mean/SD/Median/IQR | Histogram  |
+|                       | Household Size <18  | Numerical   | Mean/SD/Median/IQR | Histogram  |
+|                       | Education Level     | Categorical (4) | Proportions | Bar Chart   |
+|                       | Emploment Status    | Categorical (6) | Proportions | Bar Chart   |
+|                       | Support with childs ASD | Binary      | Proportions | Bar Chart   |
+|                       | Type of support     | Categorical (5) | Proportions | Bar Chart   |
+| EQ5D                  | 1-5             | Likert (1-3)        | Proportions | Likert Plot |
+|                       | Health          | Numerical       | Mean/SD/Median/IQR | Histogram |
+| Resource Use          |             |       |  |   |
+| SCQ                   | 1-40            | Binary      | Proportions | Bar Chart    |
+| SDQ                   | 0-25            | Likert (1-3)| Proportions | Likert Plot  |
+|                       | Emotions/Concentration/Behaviour | Likert (1-4) | Proportions | Likert Plot |
+|                       | Subsequent response | Likert (1-4)  | Proportions  | Likert Plot |
+| SSIS                  | 1-79            | Likert (1-4)      | Proportions  | Likert Plot |
+|                       | 1-46            | Likert (1-3)      | Proportions  | Likert Plot |
+
+
+Table : Fields and methods of summation for Parental Case Report Forms
+
+
+| Form                     | Field(s)        | Data Type    | Summary     | Plot        |
+|:------------------------ |:----------------|:-------------|:------------|:------------|
+| Asher Loneliness Scale   | 1-24            | Likert (1-5) | Proportions | Likert Plot |
+| CHU 9D                   | 1-9             | Likert (1-5) | Proportions | Likert Plot |
+| Perceived Social Support | 1-12            | Likert (1-7) | Proportions | Likert Plot |
+| Intervention Withdrawal  | Reason (Child/Parent) | Categorical (8) | Proportions | Bar Chart |
+|                          | Who             | Categorical (3) | Proportions | Bar Chart |
+|                          | Reason (Teacher/Interventionist) | Categorical (8) | Proportions | Bar Chart |
+| Study Discontinuation    | Reason (Child/Parent) | Categorical (9) | Proportions | Bar Chart |
+|                          | Reason (Investigator/School) | Categorical (2) | Proportions | Bar Chart |
+
+Table : Fields and methods of summation for Child Case Report Forms
+
+
+| Form         | Field(s)        | Data Type    | Summary     | Plot        |
+|:------------ |:----------------|:-------------|:------------|:------------|
+| Resource Use |             |  |  |  |
+| SDQ          | 0-25            | Likert (1-3)| Proportions | Likert Plot  |
+|              | Emotions/Concentration/Behaviour | Likert (1-4) | Proportions | Likert Plot |
+|              | Subsequent response | Likert (1-4)  | Proportions  | Likert Plot |
+| SSIS         | 1-79            | Likert (1-4)      | Proportions  | Likert Plot |
+|              | 1-46            | Likert (1-3)      | Proportions  | Likert Plot |
+
+Table : Fields and methods of summation for Teacher Case Report Forms
