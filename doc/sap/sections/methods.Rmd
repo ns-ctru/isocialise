@@ -58,6 +58,9 @@ Eligibility, inclusion and exclusion will have been assessed at the recruitment 
 
 Tables and graphs summarising the baseline and follow-up measurements at 16 and 52 weeks  by treatment arm and overall will be produced (see Appendix for examples), although no formal test for imbalances at baseline will be peformed as they are redundant and inflate the possibility of false positives, rather clinical knowledge of what is important to adjust for should guide selection of baseline covariates to be included in the model [@roberts1999, @senn1995, @senn1994, @altman1985].  No formal tests for statistical differences will be performed on the univariable outcomes as it provides unadjusted estimates of treatment effect which will be modified when adjusted for baseline and other covariates in the multivariable Generalised Linear Mixed Model.
 
+```{r child = 'tables/summary.Rmd', eval = TRUE}
+```
+
 #### Statistical Modelling
 
 Generalised Linear Mixed Models will be fitted using the [`lme4`](https://github.com/lme4/lme4/) package for [R](https://www.r-project.org/) to estimate the effect of LEGO therapy compared to normal treatment on the stated outcome(s) as recorded at follow-up and adjusting for baseline.  Change from baseline should not be used as it is less powerful than a direct comparison at the follow-up time point and adjusting for individuals baseline measurement [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].  The output of individual models will be presented along with graphical representations and diagnostic plots to assess model fit and validity (see Appendix for examples).  To allow for intra-class correlation (ICC) that may arise from the delivery of the LEGO therapy in groups random effects will be included for schools, the unit of clustering and also therapist to allow for variation introduced by having multiple therapists at the same school which may arise if there are >3 eligible participants at any given school.
