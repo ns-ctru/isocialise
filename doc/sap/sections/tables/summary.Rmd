@@ -1,0 +1,15 @@
+| Assessed        | Form          | Field(s)        | Data Type       | Summary     | Plot       |
+|:----------------|:--------------|:----------------|:----------------|:------------|:-----------|
+| Interventionist | Acceptability | 1-10            | Likert (1-5)    | Proportions | Likert Plot|
+| Interventionist | Demographics  | Relationship    | Categorical (3) | Proportions | Likert Plot|
+| Interventionist | Demographics  | Ethnicity       | Categorical (19)| Proportions | Likert Plot|
+| Interventionist | Demographics  | Role/Occupation | Categorical (10)| Proportions | Likert Plot|
+| Interventionist | Demographics  | Union Membership(?)| Categorical (10)| Proportions | Likert Plot|
+| Interventionist | Demographics  | Intervention/Support experience | Categorical (24)| Proportions / Mean/SD of duration | Likert Plots |
+| Interventionist | Demographics  | Years Working   | Numerical | Mean/SD/Median/IQR | Histogram |
+| Interventionist | Demographics  | Experience ASD  | Categorical (4) | Proportions | Likert Plot|
+| Interventionist | Discontinuation| Reason for Withdrawal| Categorical (3)| Proportions | Likert Plot|
+
+
+
+Table:
