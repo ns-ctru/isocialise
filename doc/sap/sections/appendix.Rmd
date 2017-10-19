@@ -8,6 +8,20 @@
 ```{r child = 'appendix/tables/baseline.Rmd', eval = TRUE}
 ```
 
+```{r child = 'appendix/tables/follow-up.Rmd', eval = TRUE}
+```
+
+### Sample Figures {.tabset .tabset-fade .tabset-pills}
+```{r child = 'appendix/figures/likert.Rmd', eval = TRUE}
+```
+
+```{r child = 'appendix/figures/bar_chart.Rmd', eval = TRUE}
+```
+
+```{r child = 'appendix/figures/histogram.Rmd', eval = TRUE}
+```
+
+
 ### Sample Generalised Linear Model Output {.tabset .tabset-fade .tabset-pills}
 
 ```{r child = 'appendix/tables/glmer-example.Rmd', eval = TRUE}
