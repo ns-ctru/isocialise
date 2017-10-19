@@ -1,0 +1,7 @@
+#### Sample Likert Plots
+
+Likert Plots are a form of horizontal stacked bar charts that allow the visualisation of responses to questionnaires with categorical fields and will be used to visually display the responses for questionnaires used in this study.  Examples are shown below.
+
+**ToDo** create examples
+```{r example-likert, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+```
