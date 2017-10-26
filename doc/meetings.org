@@ -1,3 +1,22 @@
+* 2017-10-25 [TMG] York
+** TODO SAP
+*** TODO Primary outcome - Protocol ambiguous states longitudinal and single time point
+**** 16 weeks is the primary outcome, 52 secondary.  Write in SAP, protocol to be updated.
+****
+*** TODO Draft SAP in place has sample table structures but not going to go over the top and put a sample one in for each and every form, have instead put a summary table defining what the CRFs are and the data types and how they will be summarised.
+*** TODO Circulation of SAP for comments/additions/feedback, would like to have a deadline for returning these.
+**** TODO Cirulate to Barry et al. before next TMG, end of second week of November.
+
+*** TODO
+** TODO Randomisation
+*** TODO In place and explained to Jess at least, seems to be being used, not heard any problems.
+** TODO Meeting Minutes
+*** Per-Protocol
+**** Barry - Gina viewed that six out of twelve sessions would be sufficient to have met protocol.
+**** Ann - Often children don't want sessions to stop, hence twelve sessions running.
+**** DEFINITELy 50% attendance
+**** Neil - Anything else that might contrinbute to protocol cmpliance?
+**** Ann - One child in the past who didn't parit
 * 2017-08-30 [TMG] Sheffield                                            :tmg:
 ** Inter Rater Reliability for video assessments?  Something to go in the SAP?
 ** TSC
@@ -17,7 +36,7 @@
 *** [ANNE] - SCQ at baseline as a covariate as its a proxy for ASD severity.
 **** Anything else?
 * 2017-08-02 [TSC] York                                                 :tsc:
-** Protocol : Clarify that week 52 should be excluded from section 10.3 on pg41
+** DONE Protocol : Clarify that week 52 should be excluded from section 10.3 on pg41
 *** David Cottrell
 **** Primary endpoint SSIS 16 or 52 weeks.  Need to choose only one and mention it in the Summary.
 **** Summary should list all secondary outcomes, need clarity on linking the outcome measures to the objectives.
@@ -131,7 +150,7 @@
 **** Statistical Analysis Plan
 ***** TODO I will have this in place by xmas.  It should align with a HEAP
 **** Health Economics Analysis Plan should also be in place, being done by York, so need to liase with them.
-** Sample Size in light of clustering
+** DONE Sample Size in light of clustering
 *** Responding schools have between 1-6 and upto 20 elligible participants
 * 2017-07-31 [STATISTICS] Dawn Statistical Analaysis             :statistics:
 ** TODO Randomisation and school clusters
