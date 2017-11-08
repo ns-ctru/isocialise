@@ -1,6 +1,7 @@
 ---
 title: iSocalise - Investigating SOcial Competence and Isolation in children with Autism taking part in LEGO®-based therapy clubs In School Environments
-output: word_document
+output: html_document
+  toc: true
 bibliography: sections/bibliography.bib
 ---
 
@@ -57,21 +58,44 @@ system(cmd)
 <!--- Page Break? --->
 -----
 
-# {.tabset .tabset-fade .tabset-pills}
-## Overview
 
+# Introduction, study design and key objectives {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/overview.Rmd', eval = TRUE}
 ```
 
-## Methods {.tabset .tabset-fade .tabset-pills}
-
-```{r child = 'sections/methods.Rmd', eval = TRUE}
+# Outcome Measures {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/outcome_measures.Rmd', eval = TRUE}
 ```
 
-## Appendix   {.tabset .tabset-fade .tabset-pills}
+# Sample Size {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/sample_size.Rmd', eval = TRUE}
+```
+
+# Randomisation and Blinding {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/randomisation_blinding.Rmd', eval = TRUE}
+```
+
+# Interim Analyses and Data Monitoring Committees {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/interim_analyses.Rmd', eval = TRUE}
+```
+
+# Data Sources, data evaluability and analysis populations {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/data_sources.Rmd', eval = TRUE}
+```
+
+# Outline of Analyses {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/outline.Rmd', eval = TRUE}
+```
+
+# Detailed statistical methods and calculations {.tabset .tabset-fade .tabset-pills}
+```{r child = 'sections/methods.Rmd', eval = TRUE}
+```
+# Data manipulation and definitions {.tabset .tabset-fade .tabset-pills}
+
+# Appendix   {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/appendix.Rmd', eval = TRUE}
 ```
 
-## References
+# References
 
 <!-- # References -->
