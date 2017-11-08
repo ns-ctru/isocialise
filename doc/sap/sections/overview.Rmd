@@ -1,4 +1,17 @@
-This study is a cluster RCT to investigate the effectiveness of LEGO®-based therapy for children with Autism Spectrum Disorder (ASD). There will be an internal pilot study which will run for 10 months to examine the feasibility of recruitment. The pilot period will run for 10 months, at which point we expect to have recruited n=120 of which one third (n=40) will have reached the primary endpoint. Stop/Go criteria based on 75% of recruitment target (n=90) and 70% of the primary outcome measures (n=28) will be used to assess feasibility of continuing the trial. There is a nested economic evaluation, qualitative component and assessment of fidelity and acceptability.
+This Statistical Analysis Plan (SAP) is written in conjunction with the International Conference on Harmonisation topic E9 (Statistical principles for clinical trials [@iche9]), applicalbe statistical Standard Operating Porcedures from the University of Sheffield Clinical Trials Research Unit (`ST001 The Statistical Analysis Plan`, `ST003 Data Evaluation`, `ST004 Interim Data Analysis`, `ST005 Randomisation and Blinding`, `ST006 Undertaking a Statistical Analysis` and `ST008 Sample Size`) and trial documents (Study Protocol and Data Validation Specification).  The trial will be conducted in accordance with Good Clinical Practice (GCP) in Clinical Trials [@iche9].
+
+This stuydy will guide the Trial Statistician during the statistical analysis of all quantitative outcomes in order to answer the objectives of the study.  It excludes the health economics evaluation which is described in a sepearte Health Economics Analysis Plan (HEAP).
+
+All analyses will be conducted under the principle of [reproduciblity](https://en.wikipedia.org/wiki/Reproducibility)[@gentleman2007, @peng2006] using the statistical software [R](https://www.r-project.org/)[@rstats].
+## Study Outline
+
+This study is a cluster RCT to investigate the effectiveness of LEGO®-based therapy for children with Autism Spectrum Disorder (ASD). There will be an internal pilot study which will run for 10 months to examine the feasibility of recruitment.
+
+## Study Objectives
+
+### Pilot Objective
+
+The pilot period will run for 10 months, at which point we expect to have recruited n=120 of which one third (n=40) will have reached the primary endpoint. Stop/Go criteria based on 75% of recruitment target (n=90) and 70% of the primary outcome measures (n=28) will be used to assess feasibility of continuing the trial. There is a nested economic evaluation, qualitative component and assessment of fidelity and acceptability.
 
 ### Primary Objective
 
@@ -14,50 +27,9 @@ The secondary objectives of this trial are to:
 5. Examine treatment fidelity through independent observation of treatment sessions across schools.
 
 
-### Outcome Measures
-
-| Completed by...  | Measure                | Time points completed | Administered by... |
-|------------------|------------------------|-----------------------|--------------------|
-| Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Asher Loneliness Scale | Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Child Health Utility 9D| Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-| Parents          | Demographics           | Consent               | Research assistant |
-|                  | Social Communication Questionnaire | Consent   | Research assistant |
-|                  | Social Skills Improvement System   | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
-|                  | EQ-5D-Y  (3L proxy)    | Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke acceptability questionnaire (intervention group only) | 16 weeks | Research assistant |
-| Teacher/Teaching Assistant | Social Skills Improvement System | Baseline | Research assistant |
-|                  |                        | 16 weeks (**Primary**)| Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
-| Interventionist Teacher/Teaching Assistant | Demographics | Baseline | Research assistant |
-|                  | Bespoke acceptability questionnaire  | 16 weeks | Research assistant |
-|                  | Bespoke resource use questionnaire   | After each therapy session | Interventionist |
-|                  | Bespoke adverse events questionnaire | After each therapy session | Interventionist |
-|                  | Fidelity checklist                   | After each therapy session | Interventionist |
+## Outcome Measures
+```{r child='overview/outcome_measures.Rmd, eval = TRUE}
+```
 
 ### Sample Size
 
