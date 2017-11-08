@@ -1,0 +1,42 @@
+| Completed by...  | Measure                | Time points completed | Administered by... |
+|------------------|------------------------|-----------------------|--------------------|
+| Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Asher Loneliness Scale | Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Child Health Utility 9D| Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+| Parents          | Demographics           | Consent               | Research assistant |
+|                  | Social Communication Questionnaire | Consent   | Research assistant |
+|                  | Social Skills Improvement System   | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
+|                  | EQ-5D-Y  (3L proxy)    | Baseline              | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke acceptability questionnaire (intervention group only) | 16 weeks | Research assistant |
+| Teacher/Teaching Assistant | Social Skills Improvement System | Baseline | Research assistant |
+|                  |                        | 16 weeks (**Primary**)| Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
+|                  |                        | 16 weeks              | Research assistant |
+|                  |                        | 52 weeks              | Research assistant |
+|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
+| Interventionist Teacher/Teaching Assistant | Demographics | Baseline | Research assistant |
+|                  | Bespoke acceptability questionnaire  | 16 weeks | Research assistant |
+|                  | Bespoke resource use questionnaire   | After each therapy session | Interventionist |
+|                  | Bespoke adverse events questionnaire | After each therapy session | Interventionist |
+|                  | Fidelity checklist                   | After each therapy session | Interventionist |
