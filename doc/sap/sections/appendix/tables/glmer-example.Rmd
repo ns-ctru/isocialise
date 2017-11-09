@@ -17,20 +17,20 @@ model1 %>% summary()
 ```{r glmer-example-random-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Diagnostic plots (see http://www.strengejacke.de/sjPlot/sjp.glmer/)
 ## Random Effects
-sjp.glmer(model1, type = 're')
+sjp.glmer(model1, type = 're') + theme_bw()
 
 ```
 
 **Random Effects Quantile Plot**
 ```{r glmer-example-random-effects-qq, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Quantile Plots for Random Effects
-sjp.glmer(model1, type = 're.qq')
+sjp.glmer(model1, type = 're.qq') + theme_bw()
 ```
 
 **Fixed Effects**
 ```{r glmer-example-fixed-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Fixed Effects
-sjp.glmer(model1, type = 'fe')
+sjp.glmer(model1, type = 'fe') + theme_bw()
 
 ```
 **Fitted Values**
