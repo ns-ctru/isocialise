@@ -1,3 +1,45 @@
+## Pilot Endpoint
+
+As detailed above, the internal pilot phase will be considered successful and the study will continue if at 10 months...
+
+- 90 participants have been recruited.
+- 28 recruited participants have primary outcome measures.
+
+**ToDo** Protocol states (as above) that the available data...
+
+> will be used to assess feasibility of continuint the trail.
+
+...but is not explicit on what the criteria for assessment will be.  **Input Required**
+
+## Primary Outcome
+
+* Social Skills Improvement System assessed by the Teacher/Teaching Assistant at 16 weeks.
+
+## Secondary Outcomes
+
+A host of additional assessment tools are being used and form the basis of the Secondary Outcomes.  Details of their scoring and the handling of missing data are detailed in Section ###).
+
+* Multidimensional Scale of Preceived Social Support.
+* Asher Loneliness Scale.
+* Child Health Utility 9D.
+* Demograhpics (assessed by the Parents).
+* Demograhpics (assessed by the Interventionst).
+* Social Communication Questionnaire.
+* Social Skills Improvement System (assessed by the Parents).
+- Strengths and Difficulties Questionnaire (assessed by the Parents).
+- Strengths and Difficulties Questionnaire (assessed by the Teacher/Teaching Assistant).
+- Bespoke Resource use Questionnaire (assessed by the Parents).
+- Bespoke Resource use Questionnaire (assessed by the Teacher/Teaching Assistant).
+* Bespokre Adverse Events Questionnaire (assessed by the Parents).
+* Bespokre Adverse Events Questionnaire (assessed by the Teacher/Teaching Assistant).
+- EQ-5D-Y (3L proxy).
+- Bespoke Acceptability Questionnaire.
+- Social Skills Improvement System (assessed by the Teacher/Teaching Assistant at 52 weeks).
+
+
+A table of all assessment tools, who they are assessing and administered by and the time-points at which they are used are detailed in the table below which combines Tables 1-4 from the Study Protocol (v1.0 2017-02-22).
+
+
 | Completed by...  | Measure                | Time points completed | Administered by... |
 |------------------|------------------------|-----------------------|--------------------|
 | Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline | Research assistant |
