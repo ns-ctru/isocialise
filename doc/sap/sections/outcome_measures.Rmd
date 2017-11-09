@@ -19,6 +19,8 @@ As detailed above, the internal pilot phase will be considered successful and th
 
 A host of additional assessment tools are being used and form the basis of the Secondary Outcomes.  Details of their scoring and the handling of missing data are detailed in Section ###).
 
+**ToDo** Citations for these, does anyone have these in a citation database (Mendley, CiteULike, BibTeX) which can be used?
+
 * Multidimensional Scale of Preceived Social Support.
 * Asher Loneliness Scale.
 * Child Health Utility 9D.
