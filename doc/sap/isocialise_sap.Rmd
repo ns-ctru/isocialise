@@ -1,7 +1,9 @@
 ---
 title: iSocalise - Investigating SOcial Competence and Isolation in children with Autism taking part in LEGO®-based therapy clubs In School Environments
-output: html_document
-  toc: true
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
 bibliography: sections/bibliography.bib
 ---
 
@@ -27,6 +29,8 @@ set.seed(69027181)
 ## Set sensible defaults
 ggplot2.opts <- list()
 ggplot2.opts$binwidth <- 30
+## sjPlot defaults
+sjPlot::theme_sjplot(base.theme = theme_bw())
 ## Exclusions
 ##
 ## The following 'non-recruited' need excluding from all analyses
@@ -58,6 +62,9 @@ system(cmd)
 <!--- Page Break? --->
 -----
 
+# Summary
+```{r child = 'sections/summary.Rmd', eval = TRUE}
+```
 
 # Introduction, study design and key objectives {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/overview.Rmd', eval = TRUE}
