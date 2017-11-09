@@ -16,9 +16,10 @@ model1 %>% summary()
 **Random Effects**
 ```{r glmer-example-random-effects, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 ## Diagnostic plots (see http://www.strengejacke.de/sjPlot/sjp.glmer/)
-sjp.setTheme(base = theme_bw())
+sjPlot::theme_sjplot(base = theme_bw())
 ## Random Effects
 sjp.glmer(model1, type = 're')
+
 ```
 
 **Random Effects Quantile Plot**
