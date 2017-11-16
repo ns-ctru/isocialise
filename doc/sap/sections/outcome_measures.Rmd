@@ -7,7 +7,7 @@ As detailed above, the internal pilot phase will be considered successful and th
 
 **ToDo** Protocol states (as above) that the available data...
 
-> will be used to assess feasibility of continuint the trail.
+> will be used to assess feasibility of continuing the trail.
 
 ...but is not explicit on what the criteria for assessment will be.  **Input Required**
 
