@@ -3,6 +3,7 @@ This Statistical Analysis Plan (SAP) is written in conjunction with the Internat
 This stuydy will guide the Trial Statistician during the statistical analysis of all quantitative outcomes in order to answer the objectives of the study.  It excludes the health economics evaluation which is described in a sepearte Health Economics Analysis Plan (HEAP).
 
 All analyses will be conducted under the principle of [reproduciblity](https://en.wikipedia.org/wiki/Reproducibility)[@gentleman2007, @peng2006] using the statistical software [R](https://www.r-project.org/)[@rstats].
+
 ## Study Outline
 
 This study is a cluster RCT to investigate the effectiveness of LEGO®-based therapy for children with Autism Spectrum Disorder (ASD). There will be an internal pilot study which will run for 10 months to examine the feasibility of recruitment.
