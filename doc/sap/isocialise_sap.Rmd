@@ -94,8 +94,9 @@ system(cmd)
 ```
 
 # Detailed statistical methods and calculations {.tabset .tabset-fade .tabset-pills}
-```{r child = 'sections/methods.Rmd', eval = TRUE}
+```{r child = 'sections/detailed_statistical_methods.Rmd', eval = TRUE}
 ```
+
 # Data manipulation and definitions {.tabset .tabset-fade .tabset-pills}
 ```{r child = 'sections/data_manipulations.Rmd', eval = TRUE}
 ```
