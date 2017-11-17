@@ -11,7 +11,6 @@ bibliography: sections/bibliography.bib
 library(lme4)
 library(influence.ME)
 library(sjPlot)
-library(agegap)
 ##opts_chunk$set(dev = 'pdf')
 opts_chunk$set(cache.path = 'cache/',
                width    = 200,
@@ -30,7 +29,7 @@ set.seed(69027181)
 ggplot2.opts <- list()
 ggplot2.opts$binwidth <- 30
 ## sjPlot defaults
-sjPlot::theme_sjplot(base.theme = theme_bw())
+## sjPlot::theme_sjplot(base.theme = theme_bw())
 ## Exclusions
 ##
 ## The following 'non-recruited' need excluding from all analyses
