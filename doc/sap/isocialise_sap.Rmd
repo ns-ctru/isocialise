@@ -65,11 +65,11 @@ system(cmd)
 ```{r child = 'sections/summary.Rmd', eval = TRUE}
 ```
 
-# Introduction, study design and key objectives {.tabset .tabset-fade .tabset-pills}
+# Introduction, study design and key objectives <!-- {.tabset .tabset-fade .tabset-pills} -->
 ```{r child = 'sections/overview.Rmd', eval = TRUE}
 ```
 
-# Outcome Measures {.tabset .tabset-fade .tabset-pills}
+# Outcome Measures <!-- {.tabset .tabset-fade .tabset-pills} -->
 ```{r child = 'sections/outcome_measures.Rmd', eval = TRUE}
 ```
 
@@ -99,6 +99,10 @@ system(cmd)
 
 # Data manipulation and definitions <!-- {.tabset .tabset-fade .tabset-pills} -->
 ```{r child = 'sections/data_manipulations.Rmd', eval = TRUE}
+```
+
+# Implementation <!-- {.tabset .tabset-fade .tabset-pills} -->
+```{r child = 'sections/implementation.Rmd', eval = TRUE}
 ```
 
 # Appendix   <!-- {.tabset .tabset-fade .tabset-pills} -->
