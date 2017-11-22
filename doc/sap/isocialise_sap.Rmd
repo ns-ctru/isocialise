@@ -1,5 +1,5 @@
 ---
-title: iSocalise - Investigating SOcial Competence and Isolation in children with Autism taking part in LEGO®-based therapy clubs In School Environments
+title: iSOCIALISE - Investigating SOcial Competence and Isolation in children with Autism taking part in Lego®-based therapy clubs In School Environments
 output:
   html_document:
     toc: true
