@@ -2,7 +2,7 @@
 
 [Bar Charts](https://en.wikipedia.org/wiki/Bar_chart) are a graphs that allow the comparison of proportions between categorical variables. Examples are shown below.
 
-**ToDo** create examples
+
 ```{r example-bar-chart, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 dummy <- cbind(ifelse(runif(n =  240) > 0.5,
                       yes = 'Standard Care',
