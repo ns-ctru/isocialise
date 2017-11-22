@@ -11,17 +11,17 @@ dummy <- cbind(ifelse(runif(n =  240) > 0.5,
          as.tibble()
 names(dummy) <- c('Status', 'random')
 dummy <- mutate(dummy,
-                EQ5D = case_when(random >= 0    & random <= 0.14 ~ 'None',
+                Mobility = case_when(random >= 0    & random <= 0.14 ~ 'None',
                                  random >  0.14 & random <= 0.29 ~ 'Slight',
                                  random >  0.29 & random <= 0.46 ~ 'Moderate',
                                  random >  0.46 & random <= 0.64 ~ 'Severe',
                                  random >  0.64 & random <= 1.0  ~ 'Extreme'))
-ggplot(dummy, aes(Status, fill = EQ5D)) +
+ggplot(dummy, aes(Status, fill = Mobility)) +
     geom_bar(position = 'fill') +
     coord_flip() +
     xlab('') +
     ylab('Proportion') +
-    ggtitle('Likert Plot for EQ5D Responses')
+    ggtitle('Likert Plot for EQ5D Responses') +
     theme_bw()
 
 
