@@ -1,0 +1,31 @@
+#### Sample Histograms
+
+[Histograms](https://en.wikipedia.org/wiki/Histogram) are a graphs that allow the comparison of the distribution of continuous variables within and between groups . Examples are shown below.
+
+
+```{r example-histogram, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+dummy <- cbind(ifelse(runif(n =  240) > 0.5,
+                      yes = 'Standard Care',
+                      no  = 'Intervention'),
+               rnorm(n =  240, mean = 130, sd = 14)) %>%
+         as.tibble()
+names(dummy) <- c('Status', 'Height')
+dummy <- mutate(dummy,
+                Height = as.numeric(Height))
+ggplot(dummy, aes(Height, fill = Status)) +
+    geom_histogram(position = 'dodge') +
+    xlab('Height (cm)') +
+    ylab('N') +
+    ggtitle('Height of Study Participants') +
+    theme_bw()
+
+ggplot(dummy, aes(Height, fill = Status)) +
+    geom_histogram(position = 'dodge') +
+    xlab('Height (cm)') +
+    ylab('N') +
+    ggtitle('Height of Study Participants') +
+    facet_wrap(~Status) +
+    theme_bw() +
+    theme(legend.position = 'none')
+
+```
