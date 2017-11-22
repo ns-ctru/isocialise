@@ -4,4 +4,19 @@
 
 **ToDo** create examples
 ```{r example-bar-chart, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+dummy <- cbind(ifelse(runif(n =  240) > 0.5,
+                      yes = 'Standard Care',
+                      no  = 'Intervention'),
+               ifelse(runif(n =  240) > 0.5,
+                      yes = 'Yes',
+                      no  = 'No')) %>%
+          as.tibble()
+names(dummy) <- c('Status', 'Are you happy?')
+ggplot(dummy, aes(Status, fill = `Are you happy?`)) +
+    geom_bar() +
+    xlab('Treatment Allocation') +
+    ylab('N') +
+    ggtitle('Responses to question about happiness...') +
+    theme_bw()
+
 ```
