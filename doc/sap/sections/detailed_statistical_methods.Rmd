@@ -1,8 +1,8 @@
 ## General Approach
 
-**NB** The following section is copied directly from the study protocol and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
+**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
 
-As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines (Schulz, Altman, & Moher, 2010; Campbell, Piaggio, Elbourne & Altman, 2012). Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
+As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines (Schulz, Altman, & Moher, 2010; Campbell, Piaggio, Elbourne & Altman, 2012). Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.  However it should be noted that this is somewhat futile as testing for differences increases chances of finding an imbalance and even if an imbalance is found the data will be analysed and, as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates[@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
 
 We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias (Torgerson & Torgerson, 2008). Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
 
@@ -24,7 +24,7 @@ It is anticipated that the exact tables and figures produced in the Statistical 
 
 Eligibility, inclusion and exclusion will have been assessed at the recruitment stage and is therefore of little relevance to the Statistical Analysis Plan, although there is some scope for checking the criteria based on collected data.  For that reason the criterai are included below.
 
-**NB** The following section is copied directly from the study protocol and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
+**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
 
 #### Inclusion Criteria
 
