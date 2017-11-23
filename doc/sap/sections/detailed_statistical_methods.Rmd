@@ -2,7 +2,7 @@
 
 **NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
 
-> As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines (Schulz, Altman, & Moher, 2010; Campbell, Piaggio, Elbourne & Altman, 2012). Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
+> As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
 
 However it should be noted that this is somewhat futile as testing for differences increases chances of finding an imbalance and even if an imbalance is found the data will be analysed and, as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates[@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
 
