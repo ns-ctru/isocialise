@@ -2,11 +2,13 @@
 
 **NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
 
-> As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
+> As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010b, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
 
-However it should be noted that this is somewhat futile as testing for differences increases chances of finding an imbalance and even if an imbalance is found the data will be analysed and, as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates[@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
+However it should be noted that this is somewhat futile because even if an imbalance is found the data will be analysed anyway and, as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
 
 > We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias (Torgerson & Torgerson, 2008). Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
+
+**NB** The Trial Steering Committee (TSC) has advised/requested that a Per-Protocol analyses be performed  as well.  The last Trial Management Group (TMG) meeting 2017-10-25 it was agreed that to meet the protocol participants had to complete 50% of the threapy sessions.  The protocol (`r study$protocol_version`) needs updating to reflect this.
 
 ### Primary and Secondary Outcomes Analysis
 
@@ -20,7 +22,7 @@ The secondary outcome variables will also be treated as continuous variables and
 
 In accordance with Sheffield CTRU Standard Operating Procedure (SOP) *ST001 The Statistical Analysis Plan* all work is conducted under the principle of [Reproducible Research](https://en.wikipedia.org/wiki/Reproducibility#Reproducible_research).  After extracting the raw, unlinked data from the [CTRU Prospect database](https://www.ctru-prospect.shef.ac.uk/) the data will be re-linked and analysed using the statistical software [R](https://www.r-project.org/) and Statistical Reports produced using [RMarkdown](http://rmarkdown.rstudio.com/) to ensure reproducibility, self-documentation and minimise errors occurring when using calculated statistics (since they can be inserted directly into text rather than transposed by hand to a Word Document, a tedious and error prone practice).  The main Statistical report will be provided in [HTML](https://en.wikipedia.org/wiki/HTML) as this provides a universal, Operating-System agnostic and easily transferable medium and is a neater method of presenting the wide array of information the study will generate than more traditional linear documents such as PDF or Word which can stretch to hundreds of pages in length (although because of the flexibility offered by [RMarkdown](http://rmarkdown.rstudio.com/)/[Pandoc](http://pandoc.org/) PDF and Word versions will also be produced).
 
-It is anticipated that the exact tables and figures produced in the Statistical report may not be those required for the funders report nor for any peer-reviewed publications that arise from this work and therefore dedicated reports for each of these will be developed and written in conjunction with other researchers.
+It is anticipated that the exact tables and figures produced in the Statistical report will not be those required for the funders report nor for any peer-reviewed publications that arise from this work and that dedicated reports produced using RMarkdown and fully reproducible will be produced for each proposed publicatoin and written in conjunction with other researchers.
 
 ### Eligibility, Inclusion and Exclusion
 
