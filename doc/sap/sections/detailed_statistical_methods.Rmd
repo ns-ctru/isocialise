@@ -24,35 +24,6 @@ In accordance with Sheffield CTRU Standard Operating Procedure (SOP) *ST001 The 
 
 It is anticipated that the exact tables and figures produced in the Statistical report will not be those required for the funders report nor for any peer-reviewed publications that arise from this work and that dedicated reports produced using RMarkdown and fully reproducible will be produced for each proposed publicatoin and written in conjunction with other researchers.
 
-### Eligibility, Inclusion and Exclusion
-
-Eligibility, inclusion and exclusion will have been assessed at the recruitment stage and is therefore of little relevance to the Statistical Analysis Plan, although there is some scope for checking the criteria based on collected data.  For that reason the criterai are included below.
-
-**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
-
-#### Inclusion Criteria
-
-> A participant will be included if the child:
->
-> * Is aged between 7 and 15 years (based on previous research and extensive PPI recommendations)
-> * Attends a mainstream school in years 2-10.
-> * The child and parent/ guardian have a sufficient understanding of English to be able to provide informed consent and read the LEGO®-based therapy instructions.
-> * Has an ASD clinical diagnosis from a qualified assessing clinician or team based on best-practice guidance leading to an ICD-10 (World Health Organization, 1993) or DSM-IV diagnosis (American Psychiatric Association, 2000)] as reported by the child’s parent/ guardian and in the child’s school records (this may include the school’s special educational needs (SEN) register, an individual education plan (IEP), individual health care plan, my support plan (MSPs), education health care plans (EHCPs), individual learning plans (ILP’s) or equivalent)
-> * Scores 15 or higher on the Social Communication Questionnaire.
-> * Has the ability to follow and understand simple instructions (as determined by the associated teacher/ TA or parent/ guardian).
->
-> A school will be included if:
->
-> * It is a mainstream school located in one of the three recruiting sites - Leeds, York, or Sheffield
-> * It has not used LEGO®-based therapy with the child in the current or preceding school term.
-> * They have at least one child diagnosed with ASD (in line with child inclusion criteria above).
-
-#### Exclusion Criteria
-
-> A participant would not be included in the study if:
->
-> * They have physical impairments which would prevent them participating in the activities (assessed by the associated teacher/TA).
-> * The child and parent/ guardian do not have a sufficient understanding of English to be able to provide informed consent and read the LEGO®-based therapy instructions.
 
 ## Detailed Statistical Analyses
 
