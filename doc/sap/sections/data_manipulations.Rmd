@@ -4,10 +4,14 @@
 
 The [Social Skills Improvement System (SSIS)](https://www.pearsonclinical.com/education/products/100000322/social-skills-improvement-system-ssis-rating-scales.html) [@gresham2008] is to completed by the associated teacher/ TA at 16 weeks post baseline. The SSIS is a behaviour rating scale that can be completed by parents, teaching staff and appropriate students. It is widely used in national portfolio studies and has been shown to be sensitive to change resulting from interventions in children with ASD. It provides a measurement of social skills (particularly empathy, self-control and communication) as well as internalising and externalising problem behaviours. It also rates academic confidence including motivation to learn. It has good reliability and validity and is validated for use by teachers. The SSIS maps on to the primary objective of the trial (examining the clinical effective of LEGO®-based therapy groups on the social and emotional competence ([including perceived social skills, challenging behaviours and academic confidence] of children with ASD in a mainstream school setting). The associated teacher/ TA will be asked to complete the SSIS at baseline, 16 and 52 weeks after baseline.
 
+**INPUT REQUIRED** I haven't yet been able to access the cited manual so am unable to say how many questions there are, how responses are weighted/scored and how the overall statistic is calculated.
+
 
 ## Child Health Utility 9D
 
 The Child Health Utility 9D (CHU-9D) [@stevens2009, @stevens2011] is a paediatric generic preference basede measure of health related quality of lfe.  The questionnaire consists of 9 dimensions each with 5 possible response.  A utility score is calculated by assigning utility values to each response and then summing these values.  A CHU-9D score can only be calculated if all questions have been answered.  The CHU-9D utility score ranges from 0.33 to 1 where higher scores represent better health related quality of life.  It is expected the CHU-9D will be a more valid and reliable measure with younger children than the EQ-5D-Y [@furber2015].
+
+**ToDo** Tease out details of how many questions, how responses are weighted/scored and how the overall statistic is calculated.
 
 ## EQ-5D-Y (3L Proxy)
 
@@ -18,6 +22,8 @@ The [EQ-5D-Y](https://euroqol.org/eq-5d-instruments/eq-5d-y-about/) [@wille2010-
 
 The Asher Loneliness Scale [@asher1985-8] is a friendship subscale that will be used to measure perceived social isolation. This self-report scale consists of 24 items. Respondents mark a 1-to-5 scale indicating the frequency with which they felt that way, ranging from never to always.Friendship and significant other subscales will be used to assess the child’s perceived social support. The full questionnaire is a short 12 item social support scale that assesses the adequacy of a person’s perceived social support from family, friends and significant others. For the purposes of this study, we will assess the 8 items relating to support from friends and a significant other (within the school setting).
 
+**INPUT REQUIRED** - be useful to have greater detail on what sounds like a subset of repsonses are to be used.
+
 ## Multidimensional Scale of Perceived Social Support
 
 The Multidimensional Scale of Perceived Social Support [@zimet1988, @dahlem1991]. Friendship and significant other subscales will be used to assess the child’s perceived social support. The full questionnaire is a short 12 item social support scale that assesses the adequacy of a person’s perceived social support from family, friends and significant others. For the purposes of this study, we will assess the 8 items relating to support from friends and a significant other (within the school setting) is a friendship subscale that will be used to measure perceived social isolation. This self-report scale consists of 24 items. Respondents mark a 1-to-5 scale indicating the frequency with which they felt that way, ranging from never to always.
@@ -26,7 +32,9 @@ The Multidimensional Scale of Perceived Social Support [@zimet1988, @dahlem1991]
 
 ## Strengths and Difficulties Questionnaire
 
-**INPUT REQUIRED** - What statistical analysis of the Strengths and Difficulties Questionnaire is required?
+**INPUT REQUIRED** - Protocol only says the tool is to be used, doesn't describe what it does nor how it is used.  Having skimmed the paper suggest the following..
+
+> The Strengths and Difficulties Questionnaire [@goodman1997] is a single page screening tool that provides balanced coverage of children and young people's aged 4-16 behaviours , emotions, and relationships and has been demonstrated to be highly correlated to the more established Rutter questionnaires [@elander1996-7].  There are 25 items each with three possible repsonses and scores *Not True* (score = 0), *Somewhat True* (score = 1) and *Certainly True* (score = 2).  These are summed to give a score between 0-40.  For further details refer to Appendix B of [@goodman1997]
 
 ## Social Communication Questionnaire
 
@@ -37,3 +45,7 @@ The [Social Communication Questionnaire (SCQ)](https://www.wpspublish.com/store/
 ## Acceptability Questionnaire
 
 **INPUT REQUIRED** - What statistical analysis of the Acceptability Questionnaire is required?
+
+
+```{r child = 'tables/questionnaires.Rmd', eval = TRUE}
+```
