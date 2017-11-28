@@ -1,8 +1,8 @@
-**NB** Much of the text is copied verbatim from the Study Protocol
+**NB** Much of the text is copied verbatim from the Study Protocol (`r study$protocol_version`).
 
 ## Social Skills Improvement System
 
-The [Social Skills Improvement System (SSIS)](https://www.pearsonclinical.com/education/products/100000322/social-skills-improvement-system-ssis-rating-scales.html) (**CITATION** Gresham & Elliott, 2008) is to completed by the associated teacher/ TA at 16 weeks post baseline. The SSIS is a behaviour rating scale that can be completed by parents, teaching staff and appropriate students. It is widely used in national portfolio studies and has been shown to be sensitive to change resulting from interventions in children with ASD. It provides a measurement of social skills (particularly empathy, self-control and communication) as well as internalising and externalising problem behaviours. It also rates academic confidence including motivation to learn. It has good reliability and validity and is validated for use by teachers. The SSIS maps on to the primary objective of the trial (examining the clinical effective of LEGO®-based therapy groups on the social and emotional competence ([including perceived social skills, challenging behaviours and academic confidence] of children with ASD in a mainstream school setting). The associated teacher/ TA will be asked to complete the SSIS at baseline, 16 and 52 weeks after baseline.
+The [Social Skills Improvement System (SSIS)](https://www.pearsonclinical.com/education/products/100000322/social-skills-improvement-system-ssis-rating-scales.html) [@gresham2008] is to completed by the associated teacher/ TA at 16 weeks post baseline. The SSIS is a behaviour rating scale that can be completed by parents, teaching staff and appropriate students. It is widely used in national portfolio studies and has been shown to be sensitive to change resulting from interventions in children with ASD. It provides a measurement of social skills (particularly empathy, self-control and communication) as well as internalising and externalising problem behaviours. It also rates academic confidence including motivation to learn. It has good reliability and validity and is validated for use by teachers. The SSIS maps on to the primary objective of the trial (examining the clinical effective of LEGO®-based therapy groups on the social and emotional competence ([including perceived social skills, challenging behaviours and academic confidence] of children with ASD in a mainstream school setting). The associated teacher/ TA will be asked to complete the SSIS at baseline, 16 and 52 weeks after baseline.
 
 
 ## Child Health Utility 9D
@@ -26,6 +26,7 @@ The Multidimensional Scale of Perceived Social Support [@zimet1988, @dahlem1991]
 
 ## Strengths and Difficulties Questionnaire
 
+**INPUT REQUIRED** - What statistical analysis of the Strengths and Difficulties Questionnaire is required?
 
 ## Social Communication Questionnaire
 
@@ -34,3 +35,5 @@ The [Social Communication Questionnaire (SCQ)](https://www.wpspublish.com/store/
 
 
 ## Acceptability Questionnaire
+
+**INPUT REQUIRED** - What statistical analysis of the Acceptability Questionnaire is required?
