@@ -3,17 +3,18 @@
 As detailed above, the internal pilot phase will be considered successful and the study will continue if at 10 months...
 
 - 90 participants have been recruited.
-- 28 recruited participants have primary outcome measures.
+- 40 participants have the primary endpoint of 16 weeks.
+- 28 of these will have outcome measures available.
 
-**ToDo** Protocol states (as above) that the available data...
+**INPUT REQUIRED** Protocol states (as above) that the available data...
 
 > will be used to assess feasibility of continuing the trail.
 
-...but is not explicit on what the criteria for assessment will be.  **Input Required**
+...but is not explicit on what the criteria for assessment will be, is it simply that 28 outcome measures of SSIS completed at 16 weeks by Teacher/Trainer will be available?
 
 ## Primary Outcome
 
-* Social Skills Improvement System assessed by the Teacher/Teaching Assistant at 16 weeks.
+* [Social Skills Improvement System (SSIS)](https://www.pearsonclinical.com/education/products/100000322/social-skills-improvement-system-ssis-rating-scales.html) [@gresham2008] assessed by the Teacher/Teaching Assistant at 16 weeks.
 
 ## Secondary Outcomes
 
@@ -32,14 +33,14 @@ A host of additional assessment tools are being used and form the basis of the S
 - Strengths and Difficulties Questionnaire (assessed by the Teacher/Teaching Assistant).
 - Bespoke Resource use Questionnaire (assessed by the Parents).
 - Bespoke Resource use Questionnaire (assessed by the Teacher/Teaching Assistant).
-* Bespokre Adverse Events Questionnaire (assessed by the Parents).
-* Bespokre Adverse Events Questionnaire (assessed by the Teacher/Teaching Assistant).
+- Bespoke Adverse Events Questionnaire (assessed by the Parents).
+- Bespoke Adverse Events Questionnaire (assessed by the Teacher/Teaching Assistant).
 - EQ-5D-Y (3L proxy).
 - Bespoke Acceptability Questionnaire.
 - Social Skills Improvement System (assessed by the Teacher/Teaching Assistant at 52 weeks).
 
 
-A table of all assessment tools, who they are assessing and administered by and the time-points at which they are used are detailed in the table below which combines Tables 1-4 from the Study Protocol (v1.0 2017-02-22).
+A table of all assessment tools, who they are assessing and administered by and the time-points at which they are used are detailed in the table below which combines Tables 1-4 from the Study Protocol (v3.0 2017-11-15).
 
 
 | Completed by...  | Measure                | Time points completed | Administered by... |
