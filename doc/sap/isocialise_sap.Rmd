@@ -103,9 +103,9 @@ system(cmd)
 ```{r child = 'sections/data_sources.Rmd', eval = TRUE}
 ```
 
-# Outline of Analyses <!-- {.tabset .tabset-fade .tabset-pills} -->
-```{r child = 'sections/outline.Rmd', eval = TRUE}
-```
+<!-- # Outline of Analyses <\!-- {.tabset .tabset-fade .tabset-pills} -\-> -->
+<!-- ```{r child = 'sections/outline.Rmd', eval = TRUE} -->
+<!-- ``` -->
 
 # Detailed statistical methods and calculations <!-- {.tabset .tabset-fade .tabset-pills} -->
 ```{r child = 'sections/detailed_statistical_methods.Rmd', eval = TRUE}
