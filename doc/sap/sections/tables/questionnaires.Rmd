@@ -1,0 +1,10 @@
+| Questionnaire       | Items           | Range of Calculated Score  | Description     | Interpretation of Score |
+|:--------------------|:----------------|:---------------------------|:----------------|:------------------------|
+| Social Skills Improvement System (SSIS) | | | | |
+| Child Health Utility 9D (CHU-9D)        | 9 | 0.33-1  | Measures health related Quality-of-Life (QoL). | Higher score represents greater health related QoL. |
+| EQ-5D-Y (3L Proxy)                      | 5 | -0.22-1 | Five domains of health status (Mobility, Self-care, Usual Activities, Pain/Discomfort, Anxiety/Depression). | A score of zero means death, 1 is full health, negative scores are a state worse than deaht(!). |
+| EQ-5D-Y (VAS)                           | 1 | 0-100 | Measure of health status. | A score of zero means worst health, 100 means best health. |
+| Asher Loneliness Scale (ALS)            | 12 (8 used) | ? | ? | ? |
+| Multidimensional Scale of Perceived Social Support (MSPSS) | | | | |
+| Strengths and Difficulties Questionnaire (SDQ)             | | | | |
+| Social Communication Questionnaire (SCQ) | 40 | ? | | |
