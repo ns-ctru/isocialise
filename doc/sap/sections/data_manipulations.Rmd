@@ -15,20 +15,20 @@ The Child Health Utility 9D (CHU-9D) [@stevens2009, @stevens2011] is a paediatri
 
 ## EQ-5D-Y (3L Proxy)
 
-The [EQ-5D-Y](https://euroqol.org/eq-5d-instruments/eq-5d-y-about/) [@wille2010-8, @ravens-sieberer2010-4] is a child friendly version of the [EQ-5D]() which consists of five questions measuring mobillity, self-care, usual activities, pain/discomfort and anxiety/depression, each with three possible responses (`no problems`, `some problems`, `lots of problems`).  The scores are assigned utility values and comnbined to give a value index score.  In the absence of specific utility value sets for the EQ-5D-Y the EQ-5D-3L can not be used [@kind2015-10] so such instances will be excluded.  The score ranges from -0.22 to 1.00 (a score of zero means death, 1 is full health and a negative score is a state worse than death).  The score will not be calculated if any items are missing.  The algorithm for scoring can be found in the [EQ-5D-Y User Manual](https://euroqol.org/wp-content/uploads/2016/09/EQ-5D-Y_User_Guide_v1.0_2014.pdf).  The EQ-5D Visual Analogue Scale (VAS) indicatges your health state today as measured on a scale from 0 (worst) to 100 (best).
+The [EQ-5D-Y](https://euroqol.org/eq-5d-instruments/eq-5d-y-about/) [@wille2010-8, @ravens-sieberer2010-4] is a child friendly version of the [EQ-5D]() which consists of five questions measuring mobility, self-care, usual activities, pain/discomfort and anxiety/depression, each with three possible responses (`no problems`, `some problems`, `lots of problems`).  The scores are assigned utility values and combined to give a value index score.  In the absence of specific utility value sets for the EQ-5D-Y the EQ-5D-3L can not be used [@kind2015-10] so such instances will be excluded.  The score ranges from -0.22 to 1.00 (a score of zero means death, 1 is full health and a negative score is a state worse than death).  The score will not be calculated if any items are missing.  The algorithm for scoring can be found in the [EQ-5D-Y User Manual](https://euroqol.org/wp-content/uploads/2016/09/EQ-5D-Y_User_Guide_v1.0_2014.pdf).  The EQ-5D Visual Analogue Scale (VAS) indicates your health state today as measured on a scale from 0 (worst) to 100 (best).
 
 
 ## Asher Loneliness Scale
 
 The Asher Loneliness Scale [@asher1985-8] is a friendship subscale that will be used to measure perceived social isolation. This self-report scale consists of 24 items. Respondents mark a 1-to-5 scale indicating the frequency with which they felt that way, ranging from never to always.Friendship and significant other subscales will be used to assess the child’s perceived social support. The full questionnaire is a short 12 item social support scale that assesses the adequacy of a person’s perceived social support from family, friends and significant others. For the purposes of this study, we will assess the 8 items relating to support from friends and a significant other (within the school setting).
 
-**INPUT REQUIRED** - be useful to have greater detail on what sounds like a subset of repsonses are to be used.
+**INPUT REQUIRED** - be useful to have greater detail on what sounds like a subset of responses are to be used.
 
 ## Multidimensional Scale of Perceived Social Support
 
 The Multidimensional Scale of Perceived Social Support [@zimet1988, @dahlem1991]. Friendship and significant other subscales will be used to assess the child’s perceived social support. The full questionnaire is a short 12 item social support scale that assesses the adequacy of a person’s perceived social support from family, friends and significant others. For the purposes of this study, we will assess the 8 items relating to support from friends and a significant other (within the school setting) is a friendship subscale that will be used to measure perceived social isolation. This self-report scale consists of 24 items. Respondents mark a 1-to-5 scale indicating the frequency with which they felt that way, ranging from never to always.
 
-**INPUT REQUIRED** - above is copied from the protocol, seems incomplete "[SOMETHING?] is a frienship subscale...".
+**INPUT REQUIRED** - above is copied from the protocol, seems incomplete "[SOMETHING?] is a friendship subscale...".
 
 ## Strengths and Difficulties Questionnaire
 
