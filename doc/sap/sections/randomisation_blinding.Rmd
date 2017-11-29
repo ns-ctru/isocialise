@@ -1,12 +1,12 @@
 ## Randomisation
 
-The unit of randomisation for this study is schools and these are randomised using a stratified randomisation list (two strata, each with two levels, Primary or Secondary and <6 or >6 eligible students).  The randomisation list was prepared using the [`blockrand`](https://cran.r-project.org/web/packages/blockrand/index.html) R package and shared with Trial Support Officers who are to perform the randomisation via Google Drive.  Use of the randomisation list is straight-forward.
+The unit of randomisation for this study is `r study$randomisation_unit` and these are randomised using a stratified randomisation list (two strata, each with two levels, Primary or Secondary and <6 or >6 eligible students).  The randomisation list was prepared using the [`blockrand`](https://cran.r-project.org/web/packages/blockrand/index.html) R package and shared with Trial Support Officers who are to perform the randomisation via Google Drive.  Use of the randomisation list is straight-forward.
 
 - When a new site is recruited and ready to be randomised look at its characteristics for the two strata.
 - Under the matching strata look at the next available allocation within it and assign the school to this allocation, recording its details in the spreadsheet.
 
 ## Blinding
 
-**NB** The following section is copied verbatim from the study protocol  (v1.0 2017-02-22) and whilst it it has little bearing on the statsitical analyses themselves it is included for reference.
+**NB** The following section is copied verbatim from the study protocol (`r study$protocol_version`) it is included for reference.
 
 > The trial statistician will remain blind throughout the duration of the study period.  The DMEC will have access to the unblinded data at their request during the trial, for example if they are concerned of potential harm caused by the intervention; this data will be prepared by the data management team in the CTRU, aided by another CTRU statistician when required.  Both trial statisticians will be blind to group allocation at each phase of the trial.
