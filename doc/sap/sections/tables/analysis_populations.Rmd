@@ -1,0 +1,4 @@
+| Name          | Participants Included        | Treatment Group |
+|:--------------|:-----------------------------|:----------------|
+| Intention-To-Treat (ITT) | All randomised participants according to the randomisation assignment unless consent is missing. | As randomised. |
+| Per-Protocol (PP)       | The subset of ITT who attend 50% of therapy sessions. | As randomised. |
