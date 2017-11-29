@@ -9,7 +9,7 @@ The [Social Skills Improvement System (SSIS)](https://www.pearsonclinical.com/ed
 
 ## Child Health Utility 9D
 
-The Child Health Utility 9D (CHU-9D) [@stevens2009, @stevens2011] is a paediatric generic preference basede measure of health related quality of lfe.  The questionnaire consists of 9 dimensions each with 5 possible response.  A utility score is calculated by assigning utility values to each response and then summing these values.  A CHU-9D score can only be calculated if all questions have been answered.  The CHU-9D utility score ranges from 0.33 to 1 where higher scores represent better health related quality of life.  It is expected the CHU-9D will be a more valid and reliable measure with younger children than the EQ-5D-Y [@furber2015].
+The Child Health Utility 9D (CHU-9D) [@stevens2009, @stevens2011] is a paediatric generic preference based measure of health related quality of lfe.  The questionnaire consists of 9 dimensions each with 5 possible response.  A utility score is calculated by assigning utility values to each response and then summing these values.  A CHU-9D score can only be calculated if all questions have been answered.  The CHU-9D utility score ranges from 0.33 to 1 where higher scores represent better health related quality of life.  It is expected the CHU-9D will be a more valid and reliable measure with younger children than the EQ-5D-Y [@furber2015].
 
 **ToDo** Tease out details of how many questions, how responses are weighted/scored and how the overall statistic is calculated.
 
