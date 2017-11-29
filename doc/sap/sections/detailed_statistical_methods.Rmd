@@ -1,14 +1,20 @@
 ## General Approach
 
-**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
+**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and is included for completeness.
 
 > As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010b, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
 
-However it should be noted that this is somewhat futile because even if an imbalance is found the data will be analysed anyway and, as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
+No formal statistical tests will be performed for differences, rather visual inspection and comparison of tabulated numbers will be performed and as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
 
-> We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias (Torgerson & Torgerson, 2008). Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
+**INPUT REQUIRED** - It should be possible to say up front what baseline co-variates will be included for adjustment, need these documented.  I'd suggest that for each outcome its corresponding baseline value is included, age and gender too.  Beyond that I'm unsure and require input.
 
-**NB** The Trial Steering Committee (TSC) has advised/requested that a Per-Protocol analyses be performed  as well.  The last Trial Management Group (TMG) meeting 2017-10-25 it was agreed that to meet the protocol participants had to complete 50% of the threapy sessions.  The protocol (`r study$protocol_version`) needs updating to reflect this.
+> We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias [@torgerson2008]. Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
+
+**NB** The Trial Steering Committee (TSC) has advised/requested that a Per-Protocol analyses be performed  as well.  The last Trial Management Group (TMG) meeting 2017-10-25 it was agreed that to meet the protocol participants had to complete 50% of the threapy sessions.  The protocol (`r study$protocol_version`) needs updating to reflect this and once that has been done I'll update the text based on whats written there, or the following suggested text can be appended to the existing statement...
+
+> A Per-Protocol (PP) sensitivity analysis will be performed including only those individuals who attended and completed 50% of the Lego Therapy session, although it is noted that the post-randomisation exclusion of individuals can lead to bias and an inflation in [type I errors (false positive)](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors#Type_I_error) [@lachin2000].
+
+
 
 ### Primary and Secondary Outcomes Analysis
 
@@ -40,6 +46,6 @@ Generalised Linear Mixed Models will be fitted using the [`lme4`](https://github
 
 In keeping with best practice [@vickers2012], assessment tools that produce scores on a numeric bounded scale will be analysed as such rather than categorising into two or more arbitrary categories (for more on problems with this approach see also [here](http://biostat.mc.vanderbilt.edu/wiki/Main/CatContinuous)), however if there is evidence of non-linearity flexibile parametric approaches will be investigated.
 
-**ToDo** Decide methods, perhaps [regression splines](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_splines)? input from Dawn
+**ToDo** Methods for non-linearity, perhaps [regression splines](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_splines)?
 
 **ToDo** 2017-08-30 - It was mentioned that there is some video analysis to be performed blinded by two independant assessors and that the Inter Rater Reliability will be calculated.  Is this something that should be included in the Statistical Analysis Plan.
