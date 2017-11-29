@@ -1,7 +1,7 @@
 ---
 title: iSOCIALISE - Investigating SOcial Competence and Isolation in children with Autism taking part in Lego®-based therapy clubs In School Environments
 output:
-  pdf_document:
+  word_document:
     toc: true
     toc_depth: 3
 bibliography: sections/bibliography.bib
@@ -39,6 +39,7 @@ ggplot2.opts$binwidth <- 30
 study <- list()
 study$name             <- 'iSOCIALISE'
 study$protocol_version <- 'v3 2017-11-21'
+study$randomisation_unit <- 'school'
 ```
 
 ```{r backup, echo = FALSE, eval = TRUE}
