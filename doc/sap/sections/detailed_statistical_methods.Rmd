@@ -1,18 +1,18 @@
-## General Approach
+<!-- ## General Approach -->
 
-**NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and is included for completeness.
+<!-- **NB** The following section is copied directly from the study protocol (`r study$protocol_version`) and is included for completeness. -->
 
-> As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010b, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
+<!-- > As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines [@schulz2010b, @campbell2012]. Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups. -->
 
-No formal statistical tests will be performed for differences, rather visual inspection and comparison of tabulated numbers will be performed and as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].
+<!-- No formal statistical tests will be performed for differences, rather visual inspection and comparison of tabulated numbers will be performed and as is best practice, adjustments will be made for important baseline characteristics by including them as co-variates [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989]. -->
 
-**INPUT REQUIRED** - It should be possible to say up front what baseline co-variates will be included for adjustment, need these documented.  I'd suggest that for each outcome its corresponding baseline value is included, age and gender too.  Beyond that I'm unsure and require input from the TMG.
+<!-- **INPUT REQUIRED** - It should be possible to say up front what baseline co-variates will be included for adjustment, need these documented.  I'd suggest that for each outcome its corresponding baseline value is included, age and gender too.  Beyond that I'm unsure and require input from the TMG. -->
 
-> We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias [@torgerson2008]. Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
+<!-- > We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias [@torgerson2008]. Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting. -->
 
-**NB** The Trial Steering Committee (TSC) has advised/requested that a Per-Protocol analyses be performed  as well.  The last Trial Management Group (TMG) meeting 2017-10-25 it was agreed that to meet the protocol participants had to complete 50% of the therapy sessions.  The protocol (`r study$protocol_version`) needs updating to reflect this and once that has been done I'll update the text based on what is written there, or the following suggested text can be appended to the existing statement...
+<!-- **NB** The Trial Steering Committee (TSC) has advised/requested that a Per-Protocol analyses be performed  as well.  The last Trial Management Group (TMG) meeting 2017-10-25 it was agreed that to meet the protocol participants had to complete 50% of the therapy sessions.  The protocol (`r study$protocol_version`) needs updating to reflect this and once that has been done I'll update the text based on what is written there, or the following suggested text can be appended to the existing statement... -->
 
-> A Per-Protocol (PP) sensitivity analysis will be performed including only those individuals who attended and completed 50% of the Lego Therapy session, although it is noted that the post-randomisation exclusion of individuals can lead to bias and an inflation in [type I errors (false positive)](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors#Type_I_error) [@lachin2000].
+<!-- > A Per-Protocol (PP) sensitivity analysis will be performed including only those individuals who attended and completed 50% of the Lego Therapy session, although it is noted that the post-randomisation exclusion of individuals can lead to bias and an inflation in [type I errors (false positive)](https://en.wikipedia.org/wiki/Type_I_and_type_II_errors#Type_I_error) [@lachin2000]. -->
 
 
 
