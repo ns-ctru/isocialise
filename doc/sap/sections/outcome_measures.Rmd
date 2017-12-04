@@ -26,7 +26,7 @@ A host of additional assessment tools are being used and form the basis of the S
 * Child Health Utility 9D [@stevens2009; @stevens2011].
 * Demographics (assessed by the parents).
 * Demographics (assessed by the interventionst).
-* Social Communication Questionnaire (**CITATION**).
+* Social Communication Questionnaire [@rutter2003].
 * Social Skills Improvement System [@gresham2008] (assessed by the parents).
 - Strengths and Difficulties Questionnaire [@goodman1997] (assessed by the parents).
 - Strengths and Difficulties Questionnaire [@goodman1997] (assessed by the teacher/teaching assistant).
