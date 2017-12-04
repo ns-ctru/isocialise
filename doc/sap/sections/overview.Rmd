@@ -1,8 +1,8 @@
-This Statistical Analysis Plan (SAP) is written in conjunction with the International Conference on Harmonisation topic E9 (Statistical principles for clinical trials [@iche9]), applicalbe statistical Standard Operating Porcedures from the University of Sheffield Clinical Trials Research Unit (`ST001 The Statistical Analysis Plan`, `ST003 Data Evaluation`, `ST004 Interim Data Analysis`, `ST005 Randomisation and Blinding`, `ST006 Undertaking a Statistical Analysis` and `ST008 Sample Size`) and trial documents (Study Protocol and Data Validation Specification).  The trial will be conducted in accordance with Good Clinical Practice (GCP) in Clinical Trials [@iche9].
+This Statistical Analysis Plan (SAP) is written in conjunction with the International Conference on Harmonisation topic E9 (Statistical principles for clinical trials [@iche9]), applicalbe statistical Standard Operating Procedures from the University of Sheffield Clinical Trials Research Unit (`ST001 The Statistical Analysis Plan`, `ST003 Data Evaluation`, `ST004 Interim Data Analysis`, `ST005 Randomisation and Blinding`, `ST006 Undertaking a Statistical Analysis` and `ST008 Sample Size`) and trial documents (Study Protocol and Data Validation Specification).  The trial will be conducted in accordance with Good Clinical Practice (GCP) in Clinical Trials [@iche9].
 
-This stuydy will guide the Trial Statistician during the statistical analysis of all quantitative outcomes in order to answer the objectives of the study.  It excludes the health economics evaluation which is described in a sepearte Health Economics Analysis Plan (HEAP).
+This stuydy will guide the Trial Statistician during the statistical analysis of all quantitative outcomes in order to answer the objectives of the study.  It excludes the health economics evaluation which is described in a separate Health Economics Analysis Plan (HEAP).
 
-All analyses will be conducted under the principle of [reproduciblity](https://en.wikipedia.org/wiki/Reproducibility)[@gentleman2007, @peng2006] using the statistical software [R](https://www.r-project.org/)[@rstats].
+All analyses will be conducted under the principle of [reproducibility](https://en.wikipedia.org/wiki/Reproducibility)[@gentleman2007, @peng2006] using the statistical software [R](https://www.r-project.org/)[@rstats].
 
 ## Study Outline
 
