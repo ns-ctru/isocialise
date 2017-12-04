@@ -10,7 +10,7 @@
 |               | Experience ASD  | Categorical (4) | Proportions | Likert Plot|
 | Discontinuation| Reason for Withdrawal| Categorical (3)| Proportions | Likert Plot|
 
-Table: Fields and methods of summation for Interventionst Case Report Forms
+Table: Fields and methods of summation for Interventionist Case Report Forms
 
 
 | Form                 | Field(s)          | Data Type   | Summary            | Plot      |
