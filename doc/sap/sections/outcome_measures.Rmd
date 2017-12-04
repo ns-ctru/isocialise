@@ -8,7 +8,7 @@ As detailed above, the internal pilot phase will be considered successful and th
 
 **INPUT REQUIRED** Protocol states (as above) that the available data...
 
-> will be used to assess feasibility of continuing the trail.
+> will be used to assess feasibility of continuing the trial.
 
 ...but is not explicit on what the criteria for assessment will be, is it simply that 28 outcome measures of SSIS completed at 16 weeks by Teacher/Trainer will be available?
 
