@@ -1,6 +1,6 @@
 ## Randomisation
 
-The unit of randomisation for this study is `r study$randomisation_unit` and these are randomised using a stratified randomisation list (two strata, each with two levels, Primary or Secondary and <6 or >6 eligible students).  The randomisation list was prepared using the [`blockrand`](https://cran.r-project.org/web/packages/blockrand/index.html) R package and shared with Trial Support Officers who are to perform the randomisation via Google Drive.  Use of the randomisation list is straight-forward.
+The unit of randomisation for this study is `r study$randomisation_unit` and these are randomised using a stratified randomisation list (two strata, each with two levels, Primary or Secondary and <6 or >6 eligible students).  The randomisation list was prepared using the [`blockrand`](https://cran.r-project.org/web/packages/blockrand/index.html) R package and shared with Trial Support Officers who are to perform the randomisation via Google Drive.  Use of the randomisation list is straightforward.
 
 - When a new site is recruited and ready to be randomised look at its characteristics for the two strata.
 - Under the matching strata look at the next available allocation within it and assign the school to this allocation, recording its details in the spreadsheet.
