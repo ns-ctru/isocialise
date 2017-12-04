@@ -1,0 +1,72 @@
+### General Approach
+
+**NB** The following section is copied directly from the study protocol and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
+
+As this trial is a pragmatic cluster RCT, data will be analysed and reported according to both RCT and cluster RCT CONSORT guidelines (Schulz, Altman, & Moher, 2010; Campbell, Piaggio, Elbourne & Altman, 2012). Baseline demographic (e.g. age, gender) and outcome measures (e.g. SDQ) will be assessed for comparability between groups.
+
+We will use ITT analysis for all outcome measures, that is those who withdraw from the treatment but complete outcome measures will be included in the analyses. This is the most appropriate form of analysis for a pragmatic trial as it maximises the external validity of the data despite the danger of dilution bias (Torgerson & Torgerson, 2008). Hence we can evaluate the evidence that the intervention has an effect on the social competence and perceived social isolation of children with ASD within a school setting.
+
+#### Primary and Secondary Outcomes Analysis
+
+The primary outcome will be the associated teacher reported SSIS score measured at 16 weeks and 52 weeks. SSIS is a summated score which we will treat as a continuous variable. All measures will be compared between the two treatment groups using a generalised linear mixed model to account for the clustering and the repeated measures.  We will include the following variables as covariates: age, sex, baseline SSIS, school (random effect) and school level (stratification variable: primary or secondary school). An unadjusted analysis (difference between group means and 95% confidence intervals) will be reported alongside the adjusted analysis. The significance level with be set at 5% for testing the primary outcome.
+
+The secondary outcome variables will also be treated as continuous variables and analysed (adjusting for baseline score, age, sex, school level (stratification variable) and school (random effect)) using the generalised linear mixed model framework.
+
+### Statistical Details
+
+#### Conduct of Work
+
+In accordance with Sheffield CTRU Standard Operating Procedure (SOP) *ST001 The Statistical Analysis Plan* all work is conducted under the principle of [Reproducible Research](https://en.wikipedia.org/wiki/Reproducibility#Reproducible_research).  After extracting the raw, unlinked data from the [CTRU Prospect database](https://www.ctru-prospect.shef.ac.uk/) the data will be re-linked and analysed using the statistical software [R](https://www.r-project.org/) and Statistical Reports produced using [RMarkdown](http://rmarkdown.rstudio.com/) to ensure reproducibility, self-documentation and minimise errors occurring when using calculated statistics (since they can be inserted directly into text rather than transposed by hand to a Word Document, a tedious and error prone practice).  The main Statistical report will be provided in [HTML](https://en.wikipedia.org/wiki/HTML) as this provides a universal, Operating-System agnostic and easily transferable medium and is a neater method of presenting the wide array of information the study will generate than more traditional linear documents such as PDF or Word which can stretch to hundreds of pages in length (although because of the flexibility offered by [RMarkdown](http://rmarkdown.rstudio.com/)/[Pandoc](http://pandoc.org/) PDF and Word versions will also be produced).
+
+It is anticipated that the exact tables and figures produced in the Statistical report may not be those required for the funders report nor for any peer-reviewed publications that arise from this work and therefore dedicated reports for each of these will be developed and written in conjunction with other researchers.
+
+#### Eligibility, Inclusion and Exclusion
+
+Eligibility, inclusion and exclusion will have been assessed at the recruitment stage and is therefore of little relevance to the Statistical Analysis Plan, although there is some scope for checking the criteria based on collected data.  For that reason the criterai are included below.
+
+**NB** The following section is copied directly from the study protocol and whilst it it has little bearing on the statsitical analyses themselves it is included for completeness.
+
+##### Inclusion Criteria
+
+> A participant will be included if the child:
+>
+> * Is aged between 7 and 15 years (based on previous research and extensive PPI recommendations)
+> * Attends a mainstream school in years 2-10.
+> * The child and parent/ guardian have a sufficient understanding of English to be able to provide informed consent and read the LEGO®-based therapy instructions.
+> * Has an ASD clinical diagnosis from a qualified assessing clinician or team based on best-practice guidance leading to an ICD-10 (World Health Organization, 1993) or DSM-IV diagnosis (American Psychiatric Association, 2000)] as reported by the child’s parent/ guardian and in the child’s school records (this may include the school’s special educational needs (SEN) register, an individual education plan (IEP), individual health care plan, my support plan (MSPs), education health care plans (EHCPs), individual learning plans (ILP’s) or equivalent)
+> * Scores 15 or higher on the Social Communication Questionnaire.
+> * Has the ability to follow and understand simple instructions (as determined by the associated teacher/ TA or parent/ guardian).
+>
+> A school will be included if:
+>
+> * It is a mainstream school located in one of the three recruiting sites - Leeds, York, or Sheffield
+> * It has not used LEGO®-based therapy with the child in the current or preceding school term.
+> * They have at least one child diagnosed with ASD (in line with child inclusion criteria above).
+
+##### Exclusion Criteria
+
+> A participant would not be included in the study if:
+>
+> * They have physical impairments which would prevent them participating in the activities (assessed by the associated teacher/TA).
+> * The child and parent/ guardian do not have a sufficient understanding of English to be able to provide informed consent and read the LEGO®-based therapy instructions.
+
+### Detailed Statistical Analyses
+
+**ToDo** Astute readers will have noticed that there is a conflict in what the primary outcome constitutes.  In the tables above detailing the tools used for assessment (copied from the Protocol (v2)) the primary outcome is noted as *Social Skills Improvemnt System at 16 Weeks*.  Further the nested Internal Pilot is projected to have *We anticipate a recruitment rate of 12 children (six schools) per month.  At ten months, we would have expected to recruit 120 children, and we will include a stopping criterion of 75% of the recruitment target n = 90 will be set.  One third of the recruited participant[s] would have reached the primary endpoint (n = 40) and we will expect 70% of outcome measures up to this point to have been completed (n = 28)*.  This supports the earlier statement that the primary end-point is 16 weeks because at ten months, no one will have had 52 week(/one year) follow-up taken (there is actually scope for 72 recruited individuals to have completed 16 week follow-up if this is 16 weeks from Baseline, although the numbers suggest it may be from the end of treatment?).  However, in the *General Approach* section above it states *All measures will be compared between the two treatment groups using a generalised linear mixed model to account for the clustering and the **repeated measures***, which suggests the 52 week follow-up questionnaire responses will also be included (since baseline is stated to be included as a co-variate rather than a component of the repeated-measures).  This was highlighted as an issue which needs addressing when the Trial Steering Commitee convened 2017-08-02 and that it would need including in an expanded and more detailed summary section.
+
+#### Summary Statistics
+
+Tables and graphs summarising the baseline and follow-up measurements at 16 and 52 weeks  by treatment arm and overall will be produced (see Appendix for examples), although no formal test for imbalances at baseline will be peformed as they are redundant and inflate the possibility of false positives, rather clinical knowledge of what is important to adjust for should guide selection of baseline covariates to be included in the model [@roberts1999, @senn1995, @senn1994, @altman1985].  No formal tests for statistical differences will be performed on the univariable outcomes as it provides unadjusted estimates of treatment effect which will be modified when adjusted for baseline and other covariates in the multivariable Generalised Linear Mixed Model.
+
+```{r child = 'tables/summary.Rmd', eval = TRUE}
+```
+
+#### Statistical Modelling
+
+Generalised Linear Mixed Models will be fitted using the [`lme4`](https://github.com/lme4/lme4/) package for [R](https://www.r-project.org/) to estimate the effect of LEGO therapy compared to normal treatment on the stated outcome(s) as recorded at follow-up and adjusting for baseline.  Change from baseline should not be used as it is less powerful than a direct comparison at the follow-up time point and adjusting for individuals baseline measurement [@bland2011, @senn2006, @vickers2001b, @vickers2001, @kaiser1989].  The output of individual models will be presented along with graphical representations and diagnostic plots to assess model fit and validity (see Appendix for examples).  To allow for intra-class correlation (ICC) that may arise from the delivery of the LEGO therapy in groups random effects will be included for schools, the unit of clustering and also therapist to allow for variation introduced by having multiple therapists at the same school which may arise if there are >3 eligible participants at any given school.
+
+In keeping with best practice [@vickers2012], assessment tools that produce scores on a numeric bounded scale will be analysed as such rather than categorising into two or more arbitrary categories (for more on problems with this approach see also [here](http://biostat.mc.vanderbilt.edu/wiki/Main/CatContinuous)), however if there is evidence of non-linearity flexibile parametric approaches will be investigated.
+
+**ToDo** Decide methods, perhaps [regression splines](https://en.wikipedia.org/wiki/Multivariate_adaptive_regression_splines)? input from Dawn
+
+**ToDo** 2017-08-30 - It was mentioned that there is some video analysis to be performed blinded by two independent assessors and that the Inter Rater Reliability will be calculated.  Is this something that should be included in the Statistical Analysis Plan?
