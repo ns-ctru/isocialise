@@ -35,7 +35,7 @@ A host of additional assessment tools are being used and form the basis of the S
 - Bespoke Adverse Events Questionnaire (assessed by the parents).
 - Bespoke Adverse Events Questionnaire (assessed by the teacher/teaching assistant).
 - EQ-5D-Y (3L proxy) [@wille2010-8; @ravens-sieberer2010-4].
-- Bespoke Acceptability Questionnaire.
+- Bespoke Acceptability Questionnaire structured around the Theoretical Framework of Acceptability [@sohkan2017].
 - Social Skills Improvement System [@gresham2008]  (assessed by the teacher/teaching assistant at 52 weeks).
 
 
