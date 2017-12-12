@@ -7,4 +7,5 @@
 | Asher Loneliness Scale (ALS)            | 12 (8 used) | ? | ? | ? |
 | Multidimensional Scale of Perceived Social Support (MSPSS) | | | | |
 | Strengths and Difficulties Questionnaire (SDQ)             | | | | |
-| Social Communication Questionnaire (SCQ) | 40 | ? | | |
+| Social Communication Questionnaire (SCQ)| 40 | ? | | |
+| Acceptability Questionnaire             | 11 | 1-55 | Measure of intervention acceptability | Higher score represents greater acceptability. |
