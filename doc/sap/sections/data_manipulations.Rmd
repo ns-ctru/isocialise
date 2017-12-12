@@ -44,7 +44,7 @@ The [Social Communication Questionnaire (SCQ)](https://www.wpspublish.com/store/
 
 ## Acceptability Questionnaire
 
-**INPUT REQUIRED** - What statistical analysis of the Acceptability Questionnaire is required?
+The Acceptability Questionnaire is an 11-item bespoke questionnaire, structured around the domains of the Theoretical Framework of Acceptability [@sekhon2017], completed by the interventionists and parents.  The questionnaire is designed to assess the acceptability of the intervention using 5-point Liker scales for each item (stronglly agree to strongly disagree).
 
 
 ```{r child = 'tables/questionnaires.Rmd', eval = TRUE}
