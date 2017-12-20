@@ -6,11 +6,7 @@ As detailed above, the internal pilot phase will be considered successful and th
 - 40 participants have the primary endpoint of 16 weeks.
 - 28 of these will have outcome measures available.
 
-**INPUT REQUIRED** Protocol states (as above) that the available data...
-
-> will be used to assess feasibility of continuing the trial.
-
-...but is not explicit on what the criteria for assessment will be, is it simply that 28 outcome measures of SSIS completed at 16 weeks by Teacher/Trainer will be available?
+These will be assessed by PHR funders and a decision made as to whether to proceed with the remainder of the study.
 
 ## Primary Outcome
 
@@ -35,52 +31,52 @@ A host of additional assessment tools are being used and form the basis of the S
 - Bespoke Adverse Events Questionnaire (assessed by the parents).
 - Bespoke Adverse Events Questionnaire (assessed by the teacher/teaching assistant).
 - EQ-5D-Y (3L proxy) [@wille2010-8; @ravens-sieberer2010-4].
-- Bespoke Acceptability Questionnaire structured around the Theoretical Framework of Acceptability [@sohkan2017].
+- Bespoke Acceptability Questionnaire structured around the Theoretical Framework of Acceptability [@sekhon2017].
 - Social Skills Improvement System [@gresham2008]  (assessed by the teacher/teaching assistant at 52 weeks).
 
 
 A table of all assessment tools, who they are assessing and administered by and the time-points at which they are used are detailed in the table below which combines Tables 1-4 from the Study Protocol (v3.0 2017-11-15).
 
 
-| Completed by...  | Measure                | Time points completed | Administered by... |
-|------------------|------------------------|-----------------------|--------------------|
-| Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Asher Loneliness Scale | Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Child Health Utility 9D| Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-| Parents          | Demographics           | Consent               | Research assistant |
-|                  | Social Communication Questionnaire | Consent   | Research assistant |
-|                  | Social Skills Improvement System   | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
-|                  | EQ-5D-Y  (3L proxy)    | Baseline              | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke acceptability questionnaire (intervention group only) | 16 weeks | Research assistant |
-| Teacher/Teaching Assistant | Social Skills Improvement System | Baseline | Research assistant |
-|                  |                        | 16 weeks (**Primary**)| Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Strengths and Difficulties Questionnaire | Baseline | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke resource use questionnaire | Baseline  | Research assistant |
-|                  |                        | 16 weeks              | Research assistant |
-|                  |                        | 52 weeks              | Research assistant |
-|                  | Bespoke adverse events questionnaire | 16 weeks| Research assistant |
-| Interventionist Teacher/Teaching Assistant | Demographics | Baseline | Research assistant |
-|                  | Bespoke acceptability questionnaire  | 16 weeks | Research assistant |
-|                  | Bespoke resource use questionnaire   | After each therapy session | Interventionist |
-|                  | Bespoke adverse events questionnaire | After each therapy session | Interventionist |
-|                  | Fidelity checklist                   | After each therapy session | Interventionist |
+| Completed by...  | Measure                | Time points completed |
+|------------------|------------------------|-----------------------|
+| Child Participant | Multidimensional Scale of Perceived Social Support (8 items relating to support from friends) | Baseline |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Asher Loneliness Scale | Baseline              |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Child Health Utility 9D| Baseline              |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+| Parents          | Demographics           | Consent               |
+|                  | Social Communication Questionnaire | Consent   |
+|                  | Social Skills Improvement System   | Baseline  |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Strengths and Difficulties Questionnaire | Baseline |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Bespoke resource use questionnaire | Baseline  |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Bespoke adverse events questionnaire | 16 weeks|
+|                  | EQ-5D-Y  (3L proxy)    | Baseline              |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Bespoke acceptability questionnaire (intervention group only) | 16 weeks |
+| Teacher/Teaching Assistant | Social Skills Improvement System | Baseline |
+|                  |                        | 16 weeks (**Primary**)|
+|                  |                        | 52 weeks              |
+|                  | Strengths and Difficulties Questionnaire | Baseline |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Bespoke resource use questionnaire | Baseline  |
+|                  |                        | 16 weeks              |
+|                  |                        | 52 weeks              |
+|                  | Bespoke adverse events questionnaire | 16 weeks|
+| Interventionist Teacher/Teaching Assistant | Demographics | Baseline |
+|                  | Bespoke acceptability questionnaire  | 16 weeks |
+|                  | Bespoke resource use questionnaire   | After each therapy session |
+|                  | Bespoke adverse events questionnaire | After each therapy session |
+|                  | Fidelity checklist                   | After each therapy session |
