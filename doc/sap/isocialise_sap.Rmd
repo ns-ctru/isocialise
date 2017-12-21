@@ -1,7 +1,7 @@
 ---
 title: I-SOCIALISE - Investigating SOcial Competence and Isolation in children with Autism taking part in Lego®-based therapy clubs In School Environments
 output:
-  pdf_document:
+  word_document:
     toc: true
     toc_depth: 3
 bibliography: sections/bibliography.bib
@@ -11,6 +11,7 @@ bibliography: sections/bibliography.bib
 library(lme4)
 library(influence.ME)
 library(sjPlot)
+library(patchwork)
 ##opts_chunk$set(dev = 'pdf')
 opts_chunk$set(cache.path = 'cache/',
                width    = 200,
