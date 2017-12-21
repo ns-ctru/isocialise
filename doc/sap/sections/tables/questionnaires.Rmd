@@ -1,11 +1,13 @@
-| Questionnaire       | Items           | Range of Calculated Score  | Description     | Interpretation of Score |
-|:--------------------|:----------------|:---------------------------|:----------------|:------------------------|
-| Social Skills Improvement System (SSIS) | | | | |
-| Child Health Utility 9D (CHU-9D)        | 9 | 0.33-1  | Measures health related Quality-of-Life (QoL). | Higher score represents greater health related QoL. |
-| EQ-5D-Y (3L Proxy)                      | 5 | -0.22-1 | Five domains of health status (Mobility, Self-care, Usual Activities, Pain/Discomfort, Anxiety/Depression). | A score of zero means death, 1 is full health, negative scores are a state worse than deaht(!). |
-| EQ-5D-Y (VAS)                           | 1 | 0-100 | Measure of health status. | A score of zero means worst health, 100 means best health. |
-| Asher Loneliness Scale (ALS)            | 12 (8 used) | ? | ? | ? |
-| Multidimensional Scale of Perceived Social Support (MSPSS) | | | | |
-| Strengths and Difficulties Questionnaire (SDQ)             | | | | |
-| Social Communication Questionnaire (SCQ)| 40 | ? | | |
-| Acceptability Questionnaire             | 11 | 1-55 | Measure of intervention acceptability | Higher score represents greater acceptability. |
+| Questionnaire       | Items           | Range of Calculated Score  | Description     | Interpretation of Score | Missing Data | Reference |
+|:--------------------|:----------------|:---------------------------|:----------------|:------------------------|:-------------|-----------|
+| Social Skills Improvement System (SSIS) | | | | | No Description | [@gresham2008] |
+| Child Health Utility 9D (CHU-9D)        | 9 | 0.33-1  | Measures health related Quality-of-Life (QoL). | Higher score represents greater health related QoL. | No Description | [@stevens2009, @stevens2011] |
+| EQ-5D-Y (3L Proxy)                      | 5 | -0.22-1 | Five domains of health status (Mobility, Self-care, Usual Activities, Pain/Discomfort, Anxiety/Depression). | A score of zero means death, 1 is full health, negative scores are a state worse than deaht(!). | Case-wise exclusion | [@wille2010-8, @ravens-sieberer2010-4] |
+| EQ-5D-Y (VAS)                           | 1 | 0-100 | Measure of health status. | A score of zero means worst health, 100 means best health. | Case-wise exclusion | [@wille2010-8, @ravens-sieberer2010-4] |
+| Asher Loneliness Scale (ALS)            | 12 (8 used) | ? | ? | ? | No Description | [@sher1985-8] |
+| Multidimensional Scale of Perceived Social Support (MSPSS) | | | | | No Description | [@zimet1988, @dahlem1991] |
+| Strengths and Difficulties Questionnaire (SDQ)             | | | | | No Description | [@goodman1997] |
+| Social Communication Questionnaire (SCQ)| 40 | ? | | | ? | (**CITATION**) |
+| Acceptability Questionnaire             | 11 | 1-55 | Measure of intervention acceptability | Higher score represents greater acceptability. | ? | Based on [@sekhon2017] |
+
+Table : Summary of questionnaires used in this study. **NB** Attempts have been made to describe how scores are derived when data is missing, if `No Description` is noted it means the original citaiotn does not contain any description of how to score in the presence of missing responses.
