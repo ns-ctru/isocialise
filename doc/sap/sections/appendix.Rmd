@@ -1,9 +1,9 @@
-### Abbreviations {.tabset .tabset-fade .tabset-pills}
+### Abbreviations
 
 ```{r child = 'appendix/abbreviations.Rmd', eval = TRUE}
 ```
 
-### Sample Tables {.tabset .tabset-fade .tabset-pills}
+### Sample Tables
 
 ```{r child = 'appendix/tables/baseline.Rmd', eval = TRUE}
 ```
@@ -11,7 +11,10 @@
 ```{r child = 'appendix/tables/follow-up.Rmd', eval = TRUE}
 ```
 
-### Sample Figures {.tabset .tabset-fade .tabset-pills}
+```{r child = 'appendix/tables/proportions.Rmd', eval = TRUE}
+```
+
+### Sample Figures
 ```{r child = 'appendix/figures/likert.Rmd', eval = TRUE}
 ```
 
@@ -22,7 +25,7 @@
 ```
 
 
-### Sample Generalised Linear Model Output {.tabset .tabset-fade .tabset-pills}
+### Sample Generalised Linear Model Output
 
 ```{r child = 'appendix/tables/glmer-example.Rmd', eval = TRUE}
 ```
