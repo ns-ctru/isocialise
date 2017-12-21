@@ -1,3 +1,5 @@
+Table : Summary of questionnaires used in this study. **NB** Attempts have been made to describe how scores are derived when data is missing, if `No Description` is noted it means the original citaiotn does not contain any description of how to score in the presence of missing responses.
+
 | Questionnaire       | Items           | Range of Calculated Score  | Description     | Interpretation of Score | Missing Data | Reference |
 |:--------------------|:----------------|:---------------------------|:----------------|:------------------------|:-------------|-----------|
 | Social Skills Improvement System (SSIS) | | | | | No Description | [@gresham2008] |
@@ -9,5 +11,3 @@
 | Strengths and Difficulties Questionnaire (SDQ)             | | | | | Exclude | [@goodman1997] |
 | Social Communication Questionnaire (SCQ)| 40 | ? | | | ? | (**CITATION**) |
 | Acceptability Questionnaire             | 11 | 1-55 | Measure of intervention acceptability | Higher score represents greater acceptability. | ? | Based on [@sekhon2017] |
-
-Table : Summary of questionnaires used in this study. **NB** Attempts have been made to describe how scores are derived when data is missing, if `No Description` is noted it means the original citaiotn does not contain any description of how to score in the presence of missing responses.
