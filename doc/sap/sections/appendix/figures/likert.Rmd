@@ -57,21 +57,42 @@ ggplot(dummy, aes(Status, fill = Response)) +
 
 ```
 
-An alternative method of plotting these is shown below.  It uses a different method to organise the data and then plot it using the `sjPlot::sjp.stackfrq()` function from  the [sjPlot](https://CRAN.R-project.org/package=sjPlot) package) and makes it easy to overlay the percentages within each grouping (possible with the above, but considerably more work).
+An alternative method of plotting these is shown below.  It uses a different method to organise the data and then plot it using the `sjPlot::sjp.stackfrq()` function from  the [sjPlot](https://CRAN.R-project.org/package=sjPlot) package and makes it easy to overlay the percentages within each grouping (possible with the above, but considerably more work).
 
 ```{r example-likert-sjplot, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
 set_theme(base = theme_bw())
+## Plot by group
 dplyr::filter(dummy, Status == 'Standard Care') %>%
     dplyr::select(-Status)  %>%
         spread(Dimension, Response) %>%
+        mutate(Anxiety = factor(Anxiety,
+                                levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               Mobility = factor(Mobility,
+                                 levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               Pain = factor(Pain,
+                             levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               `Self Care` = factor(`Self Care`,
+                                    levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               `Usual Activity` = factor(`Usual Activity`,
+                                         levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme'))) %>%
         dplyr::select(-id) %>%
         sjp.stackfrq(title = 'Standard Care')
 dplyr::filter(dummy, Status == 'Intervention') %>%
     dplyr::select(-Status)  %>%
-        spread(Dimension, Response) %>% head()
+        spread(Dimension, Response) %>%
+        mutate(Anxiety = factor(Anxiety,
+                                levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               Mobility = factor(Mobility,
+                                 levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               Pain = factor(Pain,
+                             levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               `Self Care` = factor(`Self Care`,
+                                    levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme')),
+               `Usual Activity` = factor(`Usual Activity`,
+                                         levels = c('None', 'Slight', 'Moderate', 'Severe', 'Extreme'))) %>%
         dplyr::select(-id) %>%
         sjp.stackfrq(title = 'Intervention')
-rm(standard, intervention)
+## Plot by Question
 ## dplyr::filter(dummy, Dimension == 'Mobility') %>%
 ##     dplyr::select(-Dimension)  %>%
 ##         spread(Status, Response) %>%
