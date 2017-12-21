@@ -12,6 +12,61 @@ dummy <- cbind(ifelse(runif(n =  240) > 0.5,
                runif(n =  240),
                runif(n =  240),
                runif(n =  240)) %>%
+    as.tibble() %>%
+    mutate(id = row_number())
+names(dummy) <- c('Status', 'random1', 'random2', 'random3', 'random4', 'random5', 'id')
+dummy <- mutate(dummy,
+                Mobility = case_when(random1 >= 0    & random1 <= 0.14 ~ 'None',
+                                     random1 >  0.14 & random1 <= 0.29 ~ 'Slight',
+                                     random1 >  0.29 & random1 <= 0.46 ~ 'Moderate',
+                                     random1 >  0.46 & random1 <= 0.64 ~ 'Severe',
+                                     random1 >  0.64 & random1 <= 1.0  ~ 'Extreme'),
+                `Self Care` = case_when(random2 >= 0    & random2 <= 0.26 ~ 'None',
+                                        random2 >  0.26 & random2 <= 0.38 ~ 'Slight',
+                                        random2 >  0.38 & random2 <= 0.56 ~ 'Moderate',
+                                        random2 >  0.56 & random2 <= 0.74 ~ 'Severe',
+                                        random2 >  0.74 & random2 <= 1.0  ~ 'Extreme'),
+                `Usual Activity` = case_when(random3 >= 0    & random3 <= 0.20 ~ 'None',
+                                             random3 >  0.20 & random3 <= 0.40 ~ 'Slight',
+                                             random3 >  0.40 & random3 <= 0.60 ~ 'Moderate',
+                                             random3 >  0.60 & random3 <= 0.80 ~ 'Severe',
+                                             random3 >  0.80 & random3 <= 1.0  ~ 'Extreme'),
+                `Pain` = case_when(random4 >= 0    & random4 <= 0.22 ~ 'None',
+                                   random4 >  0.22 & random4 <= 0.39 ~ 'Slight',
+                                   random4 >  0.39 & random4 <= 0.64 ~ 'Moderate',
+                                   random4 >  0.64 & random4 <= 0.75 ~ 'Severe',
+                                   random4 >  0.75 & random4 <= 1.0  ~ 'Extreme'),
+                `Anxiety` = case_when(random5 >= 0    & random5 <= 0.19 ~ 'None',
+                                      random5 >  0.19 & random5 <= 0.49 ~ 'Slight',
+                                      random5 >  0.49 & random5 <= 0.58 ~ 'Moderate',
+                                      random5 >  0.58 & random5 <= 0.75 ~ 'Severe',
+                                      random5 >  0.75 & random5 <= 1.0  ~ 'Extreme')) %>%
+    dplyr::select(-random1, -random2, -random3, -random4, -random5) %>%
+    gather(Dimension, Response, -id, -Status)
+ggplot(dummy, aes(Status, fill = Response)) +
+    geom_bar(position = 'fill') +
+    coord_flip() +
+    xlab('') +
+    ylab('Proportion') +
+    facet_wrap(~Dimension, ncol = 1) +
+    ggtitle('Likert Plot for EQ5D Responses') +
+    theme_bw()
+
+
+
+```
+
+An alternative method of plotting these is shown below.  It uses a different method to organise the data and then plot it using the `sjPlot::sjp.stackfrq()` function from  the [sjPlot](https://CRAN.R-project.org/package=sjPlot) package) and makes it easy to overlay the percentages within each grouping (possible with the above, but considerably more work).
+
+```{r example-likert-sjplot, echo = FALSE, warning = FALSE, message = FALSE, results = 'hide', cache = FALSE, fig_width = 10, fig_height = 10, eval = TRUE}
+dummy <- cbind(ifelse(runif(n =  240) > 0.5,
+                      yes = 'Standard Care',
+                      no  = 'Intervention'),
+               runif(n =  240),
+               runif(n =  240),
+               runif(n =  240),
+               runif(n =  240),
+               runif(n =  240)) %>%
          as.tibble()
 names(dummy) <- c('Status', 'random1', 'random2', 'random3', 'random4', 'random5')
 dummy <- mutate(dummy,
@@ -41,16 +96,7 @@ dummy <- mutate(dummy,
                                       random5 >  0.58 & random5 <= 0.75 ~ 'Severe',
                                       random5 >  0.75 & random5 <= 1.0  ~ 'Extreme')) %>%
     dplyr::select(-random1, -random2, -random3, -random4, -random5) %>%
-    melt(id.vars = 'Status', value.name = 'Response')
-ggplot(dummy, aes(Status, fill = Response)) +
-    geom_bar(position = 'fill') +
-    coord_flip() +
-    xlab('') +
-    ylab('Proportion') +
-    facet_wrap(~variable, ncol = 1) +
-    ggtitle('Likert Plot for EQ5D Responses') +
-    theme_bw()
-
-
+    gather(Status)
+dummy %>% mutate(id = row_number()) %>% spread(Status, Response + variable) %>% head()
 
 ```
